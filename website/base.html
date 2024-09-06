@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Overview</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="filter.js"></script>
+
+    <div class="filter-main-bar">
+        <div class="filter-header"><p style="margin: 0;">Filter</p></div>
+        <div class="filter-bar">
+            <div class="filter">
+                <label for="role">Role</label>
+                <select class="filter-select" id="role" onchange="onFilterChange()">
+                    <option value="">All</option>
+                    <option value="Founder">Founder</option>
+                    <option value="Maintainer">Maintainer</option>
+                    <option value="Contributor">Contributor</option>
+                </select>
+            </div>
+            <div class="filter">
+                <label for="license">License</label>
+                <select class="filter-select" id="license" onchange="onFilterChange()">
+                    <option value="">All</option>
+                    <!-- The license options are populated using the python script init_site.py -->
+                </select>
+            </div>
+            <div class="filter">
+                <label for="chair">Research Group</label>
+                <select class="filter-select" id="chair" onchange="onFilterChange()">
+                    <option value="">All</option>
+                    <!-- The license options are populated using the python script init_site.py -->
+                </select>
+            </div>
+            <div class="filter">
+                <label for="still-involved">Still involved?</label>
+                <select class="filter-select" id="still-involved" onchange="onFilterChange()">
+                    <option value="">All</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="filter-search-bar">
+        <input class="filter-search-input" type="search" id="search" placeholder="Enter keyword to search for" oninput="onFilterChange()"></input>
+    </div>
+    <div class="project-list" id="project-list">
+        <!-- The project list is populated using the python script init_site.py -->
+    </div>
+</body>
+</html>
+

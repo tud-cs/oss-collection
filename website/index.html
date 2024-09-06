@@ -1,0 +1,2303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Overview</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <script src="filter.js"></script>
+    <div class="filter-main-bar">
+      <div class="filter-header">
+        <p style="margin: 0;">Filter</p>
+      </div>
+      <div class="filter-bar">
+        <div class="filter">
+          <label for="role">Role</label>
+          <select class="filter-select" id="role" onchange="onFilterChange()">
+            <option value="">All</option>
+            <option value="Founder">Founder</option>
+            <option value="Maintainer">Maintainer</option>
+            <option value="Contributor">Contributor</option>
+          </select>
+        </div>
+        <div class="filter">
+          <label for="license">License</label>
+          <select class="filter-select" id="license" onchange="onFilterChange()">
+            <option value="">All</option>
+            <!-- The license options are populated using the python script init_site.py -->
+            <option value="AGPL-3.0">AGPL-3.0</option>
+            <option value="Apache-2.0">Apache-2.0</option>
+            <option value="Apache-2.0 and MIT">Apache-2.0 and MIT</option>
+            <option value='BSD 3-Clause "New" or "Revised" License'>BSD 3-Clause "New" or "Revised" License</option>
+            <option value="BSD'ish">BSD'ish</option>
+            <option value="BSD-2-Clause">BSD-2-Clause</option>
+            <option value="BSD-3-Clause">BSD-3-Clause</option>
+            <option value="BSD-style">BSD-style</option>
+            <option value="EPL-1.0">EPL-1.0</option>
+            <option value="EPL-2.0">EPL-2.0</option>
+            <option value="EPL-2.0 and more">EPL-2.0 and more</option>
+            <option value="GPL">GPL</option>
+            <option value="GPL-2.0">GPL-2.0</option>
+            <option value="GPL-2.0 with the “Classpath” Exception">GPL-2.0 with the “Classpath” Exception</option>
+            <option value="GPL-2.0-or-later and more">GPL-2.0-or-later and more</option>
+            <option value="GPL-3.0">GPL-3.0</option>
+            <option value="GPL-3.0+">GPL-3.0+</option>
+            <option value="ISC">ISC</option>
+            <option value="LGPL">LGPL</option>
+            <option value="LGPL-2.1">LGPL-2.1</option>
+            <option value="LGPL-3">LGPL-3</option>
+            <option value="LGPL-3.0-or-later and others">LGPL-3.0-or-later and others</option>
+            <option value="LPPL-1.3c">LPPL-1.3c</option>
+            <option value="MIT">MIT</option>
+            <option value="custom">custom</option>
+          </select>
+        </div>
+        <div class="filter">
+          <label for="chair">Research Group</label>
+          <select class="filter-select" id="chair" onchange="onFilterChange()">
+            <option value="">All</option>
+            <!-- The license options are populated using the python script init_site.py -->
+            <option value="COMPUTATIONAL SYSTEMS SCIENCE">COMPUTATIONAL SYSTEMS SCIENCE</option>
+            <option value="Chair for Compiler Construction">Chair for Compiler Construction</option>
+            <option value="Chair of Distributed and Networked Systems">Chair of Distributed and Networked Systems</option>
+            <option value="Chair of Machine Learning for Spatial Understanding">Chair of Machine Learning for Spatial Understanding</option>
+            <option value="Computer Architecture">Computer Architecture</option>
+            <option value="Gestaltung Immersive Medien">Gestaltung Immersive Medien</option>
+            <option value="Human-Computer-Interaction">Human-Computer-Interaction</option>
+            <option value="Knowledge-Based Systems">Knowledge-Based Systems</option>
+            <option value="MLCV">MLCV</option>
+            <option value="Networked Systems Modeling">Networked Systems Modeling</option>
+            <option value="Operating Systems">Operating Systems</option>
+            <option value="P&amp;S">P&amp;S</option>
+            <option value="Scientific Computing for Systems Biology">Scientific Computing for Systems Biology</option>
+          </select>
+        </div>
+        <div class="filter">
+          <label for="still-involved">Still involved?</label>
+          <select class="filter-select" id="still-involved" onchange="onFilterChange()">
+            <option value="">All</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="filter-search-bar">
+      <input class="filter-search-input" type="search" id="search" placeholder="Enter keyword to search for" oninput="onFilterChange()">
+    </div>
+    <div class="project-list" id="project-list">
+      <!-- The project list is populated using the python script init_site.py -->
+      <div id="0" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://mlcv.inf.tu-dresden.de/index-de.html" target="_blank" title="https://mlcv.inf.tu-dresden.de/index-de.html">
+                <span id="chair-0">MLCV</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(0)">
+              <div id="project-name-0" class="project-name">A 4-Approximation Algorithm for Min Max Correlation Clustering</div>
+            </div>
+            <div id="more-info-0" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/JannikIrmai/min-max-correlation-clustering" href="https://github.com/JannikIrmai/min-max-correlation-clustering" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/JannikIrmai/min-max-correlation-clustering" href="https://github.com/JannikIrmai/min-max-correlation-clustering" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="1" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/ai/mci" target="_blank" title="https://tu-dresden.de/ing/informatik/ai/mci">
+                <span id="chair-1">Human-Computer-Interaction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(1)">
+              <div id="project-name-1" class="project-name">AccessibleMaps</div>
+            </div>
+            <div id="more-info-1" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://accessiblemaps.de/" href="https://accessiblemaps.de/" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/AccessibleMaps" href="https://github.com/AccessibleMaps" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="MIT" id="license-1" class="license-item">MIT</div>
+        </div>
+      </div>
+      <div id="2" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cms-labs.org/" target="_blank" title="https://www.cms-labs.org/">
+                <span id="chair-2">Networked Systems Modeling</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(2)">
+              <div id="project-name-2" class="project-name">ACM LaTeX template</div>
+            </div>
+            <div id="more-info-2" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://ctan.org/pkg/acmart" href="https://ctan.org/pkg/acmart" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/borisveytsman/acmart" href="https://github.com/borisveytsman/acmart" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="LPPL-1.3c" id="license-2" class="license-item">LPPL-1.3c</div>
+        </div>
+      </div>
+      <div id="3" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/sya/netd" target="_blank" title="https://tu-dresden.de/ing/informatik/sya/netd">
+                <span id="chair-3">Chair of Distributed and Networked Systems</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(3)">
+              <div id="project-name-3" class="project-name">AMCS</div>
+            </div>
+            <div id="more-info-3" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://amcs.website/" href="https://amcs.website/" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="4" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/sya/ps" target="_blank" title="https://tu-dresden.de/ing/informatik/sya/ps">
+                <span id="chair-4">P&amp;S</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(4)">
+              <div id="project-name-4" class="project-name">AN.ON</div>
+            </div>
+            <div id="more-info-4" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://anon.inf.tu-dresden.de" href="https://anon.inf.tu-dresden.de" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://dud-scm.inf.tu-dresden.de/an.on" href="https://dud-scm.inf.tu-dresden.de/an.on" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="BSD-style" id="license-4" class="license-item">BSD-style</div>
+        </div>
+      </div>
+      <div id="5" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-5">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(5)">
+              <div id="project-name-5" class="project-name">base2-mlir</div>
+            </div>
+            <div id="more-info-5" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/KFAFSP/base2-mlir" href="https://github.com/KFAFSP/base2-mlir" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/KFAFSP/base2-mlir" href="https://github.com/KFAFSP/base2-mlir" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="ISC" id="license-5" class="license-item">ISC</div>
+        </div>
+      </div>
+      <div id="6" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur" target="_blank" title="https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur">
+                <span id="chair-6">Computer Architecture</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(6)">
+              <div id="project-name-6" class="project-name">BenchIT</div>
+            </div>
+            <div id="more-info-6" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://gitlab.hrz.tu-chemnitz.de/tud-zih-energy/benchit" href="https://gitlab.hrz.tu-chemnitz.de/tud-zih-energy/benchit" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://gitlab.hrz.tu-chemnitz.de/tud-zih-energy/benchit" href="https://gitlab.hrz.tu-chemnitz.de/tud-zih-energy/benchit" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="BSD'ish" id="license-6" class="license-item">BSD'ish</div>
+        </div>
+      </div>
+      <div id="7" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-7">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(7)">
+              <div id="project-name-7" class="project-name">Cinnamon</div>
+            </div>
+            <div id="more-info-7" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/tud-ccc/Cinnamon" href="https://github.com/tud-ccc/Cinnamon" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="MIT" id="license-7" class="license-item">MIT</div>
+        </div>
+      </div>
+      <div id="8" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-8">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(8)">
+              <div id="project-name-8" class="project-name">compy-learn</div>
+            </div>
+            <div id="more-info-8" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/tud-ccc/compy-learn" href="https://github.com/tud-ccc/compy-learn" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/tud-ccc/compy-learn" href="https://github.com/tud-ccc/compy-learn" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="Apache-2.0" id="license-8" class="license-item">Apache-2.0</div>
+        </div>
+      </div>
+      <div id="9" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-9">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(9)">
+              <div id="project-name-9" class="project-name">condrust</div>
+            </div>
+            <div id="more-info-9" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/ohua-lang/condrust" href="https://github.com/ohua-lang/condrust" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/ohua-lang/condrust" href="https://github.com/ohua-lang/condrust" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="ISC" id="license-9" class="license-item">ISC</div>
+        </div>
+      </div>
+      <div id="10" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://fis.tu-dresden.de/portal/en/organisations/chair-of-knowledgebased-systems-cfaed(a23c12a9-49de-430a-a628-2b9fed16bfa1).html" target="_blank" title="https://fis.tu-dresden.de/portal/en/organisations/chair-of-knowledgebased-systems-cfaed(a23c12a9-49de-430a-a628-2b9fed16bfa1).html">
+                <span id="chair-10">Knowledge-Based Systems</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(10)">
+              <div id="project-name-10" class="project-name">conexp-clj</div>
+            </div>
+            <div id="more-info-10" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/tomhanika/conexp-clj" href="https://github.com/tomhanika/conexp-clj" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/tomhanika/conexp-clj" href="https://github.com/tomhanika/conexp-clj" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="EPL-1.0" id="license-10" class="license-item">EPL-1.0</div>
+        </div>
+      </div>
+      <div id="11" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair">
+                <span id="chair-11">COMPUTATIONAL SYSTEMS SCIENCE</span>
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(11)">
+              <div id="project-name-11" class="project-name">CP2K</div>
+            </div>
+            <div id="more-info-11" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://cp2k.org" href="https://cp2k.org" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/cp2k" href="https://github.com/cp2k" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="GPL-2.0" id="license-11" class="license-item">GPL-2.0</div>
+        </div>
+      </div>
+      <div id="12" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://fis.tu-dresden.de/portal/en/organisations/chair-of-machine-learning-for-spatial-understanding-scadsai-dresdenleipzig(69b2a2a2-aede-411d-a762-df4bb49490eb).html" target="_blank" title="https://fis.tu-dresden.de/portal/en/organisations/chair-of-machine-learning-for-spatial-understanding-scadsai-dresdenleipzig(69b2a2a2-aede-411d-a762-df4bb49490eb).html">
+                <span id="chair-12">Chair of Machine Learning for Spatial Understanding</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(12)">
+              <div id="project-name-12" class="project-name">CSBDeep</div>
+            </div>
+            <div id="more-info-12" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="http://csbdeep.bioimagecomputing.com/doc/" href="http://csbdeep.bioimagecomputing.com/doc/" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/CSBDeep/CSBDeep" href="https://github.com/CSBDeep/CSBDeep" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="BSD-3-Clause" id="license-12" class="license-item">BSD-3-Clause</div>
+        </div>
+      </div>
+      <div id="13" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair">
+                <span id="chair-13">Chair for Compiler Construction</span>
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(13)">
+              <div id="project-name-13" class="project-name">dfg-mlir</div>
+            </div>
+            <div id="more-info-13" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/Feliix42/dfg-mlir" href="https://github.com/Feliix42/dfg-mlir" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/Feliix42/dfg-mlir" href="https://github.com/Feliix42/dfg-mlir" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="ISC" id="license-13" class="license-item">ISC</div>
+        </div>
+      </div>
+      <div id="14" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/sya/ps" target="_blank" title="https://tu-dresden.de/ing/informatik/sya/ps">
+                <span id="chair-14">P&amp;S</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(14)">
+              <div id="project-name-14" class="project-name">dudle</div>
+            </div>
+            <div id="more-info-14" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://dud-poll.inf.tu-dresden.de/" href="https://dud-poll.inf.tu-dresden.de/" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/kellerben/dudle/" href="https://github.com/kellerben/dudle/" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="AGPL-3.0" id="license-14" class="license-item">AGPL-3.0</div>
+        </div>
+      </div>
+      <div id="15" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cms-labs.org/" target="_blank" title="https://www.cms-labs.org/">
+                <span id="chair-15">Networked Systems Modeling</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(15)">
+              <div id="project-name-15" class="project-name">Eclipse SUMO</div>
+            </div>
+            <div id="more-info-15" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://eclipse.dev/sumo/" href="https://eclipse.dev/sumo/" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/eclipse-sumo/sumo" href="https://github.com/eclipse-sumo/sumo" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="EPL-2.0 and more" id="license-15" class="license-item">EPL-2.0 and more</div>
+        </div>
+      </div>
+      <div id="16" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/sya/professur-fuer-betriebssysteme" target="_blank" title="https://tu-dresden.de/ing/informatik/sya/professur-fuer-betriebssysteme">
+                <span id="chair-16">Operating Systems</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(16)">
+              <div id="project-name-16" class="project-name">FAIL*</div>
+            </div>
+            <div id="more-info-16" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/danceos/fail" href="https://github.com/danceos/fail" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/danceos/fail" href="https://github.com/danceos/fail" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="GPL-3.0" id="license-16" class="license-item">GPL-3.0</div>
+        </div>
+      </div>
+      <div id="17" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur" target="_blank" title="https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur">
+                <span id="chair-17">Computer Architecture</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(17)">
+              <div id="project-name-17" class="project-name">FIRESTARTER</div>
+            </div>
+            <div id="more-info-17" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/tud-zih-energy/FIRESTARTER" href="https://github.com/tud-zih-energy/FIRESTARTER" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/tud-zih-energy/FIRESTARTER" href="https://github.com/tud-zih-energy/FIRESTARTER" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="GPL-3.0" id="license-17" class="license-item">GPL-3.0</div>
+        </div>
+      </div>
+      <div id="18" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/sya/netd" target="_blank" title="https://tu-dresden.de/ing/informatik/sya/netd">
+                <span id="chair-18">Chair of Distributed and Networked Systems</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(18)">
+              <div id="project-name-18" class="project-name">GNU Taler</div>
+            </div>
+            <div id="more-info-18" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://taler.net/de/index.html" href="https://taler.net/de/index.html" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://git.taler.net/" href="https://git.taler.net/" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="GPL" id="license-18" class="license-item">GPL</div>
+        </div>
+      </div>
+      <div id="19" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://mlcv.inf.tu-dresden.de/index-de.html" target="_blank" title="https://mlcv.inf.tu-dresden.de/index-de.html">
+                <span id="chair-19">MLCV</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(19)">
+              <div id="project-name-19" class="project-name">Graphs and graph algorithms in C++</div>
+            </div>
+            <div id="more-info-19" title="This project sits in a small niche. For most applications, BGL, Blitz or Lemon are a better choice." class="project-more-info-popup">This project sits in a small niche. For most applications, BGL, Blitz or Lemon are a better choice.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/bjoern-andres/graph" href="https://github.com/bjoern-andres/graph" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/bjoern-andres/graph" href="https://github.com/bjoern-andres/graph" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="MIT" id="license-19" class="license-item">MIT</div>
+        </div>
+      </div>
+      <div id="20" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-20">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(20)">
+              <div id="project-name-20" class="project-name">learning-compiler-graphs</div>
+            </div>
+            <div id="more-info-20" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/tud-ccc/learning-compiler-graphs" href="https://github.com/tud-ccc/learning-compiler-graphs" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/tud-ccc/learning-compiler-graphs" href="https://github.com/tud-ccc/learning-compiler-graphs" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="21" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/ki/wr" target="_blank" title="https://tu-dresden.de/ing/informatik/ki/wr">
+                <span id="chair-21">Scientific Computing for Systems Biology</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(21)">
+              <div id="project-name-21" class="project-name">libAPR, pyapr, apr-napari</div>
+            </div>
+            <div id="more-info-21" title='C++ core library for the adaptive particle representation (APR) of images, including its Python package (pyapr) and plugin for the image viewer "napari" (napari-apr) as well as an APR-native volume renderer and a Big Data Viewer for distributed and tiled volume images.' class="project-more-info-popup">C++ core library for the adaptive particle representation (APR) of images, including its Python package (pyapr) and plugin for the image viewer "napari" (napari-apr) as well as an APR-native volume renderer and a Big Data Viewer for distributed and tiled volume images.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/AdaptiveParticles" href="https://github.com/AdaptiveParticles" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/AdaptiveParticles" href="https://github.com/AdaptiveParticles" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="Apache-2.0" id="license-21" class="license-item">Apache-2.0</div>
+        </div>
+      </div>
+      <div id="22" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-22">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(22)">
+              <div id="project-name-22" class="project-name">Lingua Franca</div>
+            </div>
+            <div id="more-info-22" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/lf-lang/lingua-franca" href="https://github.com/lf-lang/lingua-franca" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/lf-lang/lingua-franca" href="https://github.com/lf-lang/lingua-franca" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="BSD-2-Clause" id="license-22" class="license-item">BSD-2-Clause</div>
+        </div>
+      </div>
+      <div id="23" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur" target="_blank" title="https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur">
+                <span id="chair-23">Computer Architecture</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(23)">
+              <div id="project-name-23" class="project-name">Linux kernel</div>
+            </div>
+            <div id="more-info-23" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/torvalds/linux" href="https://github.com/torvalds/linux" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/torvalds/linux" href="https://github.com/torvalds/linux" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="GPL-2.0" id="license-23" class="license-item">GPL-2.0</div>
+        </div>
+      </div>
+      <div id="24" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://mlcv.inf.tu-dresden.de/index-de.html" target="_blank" title="https://mlcv.inf.tu-dresden.de/index-de.html">
+                <span id="chair-24">MLCV</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(24)">
+              <div id="project-name-24" class="project-name">Marray</div>
+            </div>
+            <div id="more-info-24" title="Now largely adopted into ISO C++ as std::span" class="project-more-info-popup">Now largely adopted into ISO C++ as std::span</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/bjoern-andres/marray" href="https://github.com/bjoern-andres/marray" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/bjoern-andres/marray" href="https://github.com/bjoern-andres/marray" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="25" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-25">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(25)">
+              <div id="project-name-25" class="project-name">messner</div>
+            </div>
+            <div id="more-info-25" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/everest-h2020/messner" href="https://github.com/everest-h2020/messner" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/everest-h2020/messner" href="https://github.com/everest-h2020/messner" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="ISC" id="license-25" class="license-item">ISC</div>
+        </div>
+      </div>
+      <div id="26" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-26">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(26)">
+              <div id="project-name-26" class="project-name">Mocasin</div>
+            </div>
+            <div id="more-info-26" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/tud-ccc/mocasin" href="https://github.com/tud-ccc/mocasin" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/tud-ccc/mocasin" href="https://github.com/tud-ccc/mocasin" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="ISC" id="license-26" class="license-item">ISC</div>
+        </div>
+      </div>
+      <div id="27" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/ki/wr" target="_blank" title="https://tu-dresden.de/ing/informatik/ki/wr">
+                <span id="chair-27">Scientific Computing for Systems Biology</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(27)">
+              <div id="project-name-27" class="project-name">MOSAICsuite</div>
+            </div>
+            <div id="more-info-27" title="Plugin suite for the popular bio-image analysis software &quot;Image/J&quot; and &quot;Fiji&quot; with all image processing and analysis methods from our group. Around 30'000 unique-IP starts ups per day worldwide." class="project-more-info-popup">Plugin suite for the popular bio-image analysis software "Image/J" and "Fiji" with all image processing and analysis methods from our group. Around 30'000 unique-IP starts ups per day worldwide.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://sbalzarini-lab.org/?q=downloads/imageJ" href="https://sbalzarini-lab.org/?q=downloads/imageJ" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://git.mpi-cbg.de/mosaic/software/bio-imaging/MosaicSuite" href="https://git.mpi-cbg.de/mosaic/software/bio-imaging/MosaicSuite" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="GPL-3.0" id="license-27" class="license-item">GPL-3.0</div>
+        </div>
+      </div>
+      <div id="28" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://fis.tu-dresden.de/portal/en/organisations/chair-of-knowledgebased-systems-cfaed(a23c12a9-49de-430a-a628-2b9fed16bfa1).html" target="_blank" title="https://fis.tu-dresden.de/portal/en/organisations/chair-of-knowledgebased-systems-cfaed(a23c12a9-49de-430a-a628-2b9fed16bfa1).html">
+                <span id="chair-28">Knowledge-Based Systems</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(28)">
+              <div id="project-name-28" class="project-name">Nemo</div>
+            </div>
+            <div id="more-info-28" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/knowsys/nemo" href="https://github.com/knowsys/nemo" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/knowsys/nemo" href="https://github.com/knowsys/nemo" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="Apache-2.0 and MIT" id="license-28" class="license-item">Apache-2.0 and MIT</div>
+        </div>
+      </div>
+      <div id="29" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/sya/netd" target="_blank" title="https://tu-dresden.de/ing/informatik/sya/netd">
+                <span id="chair-29">Chair of Distributed and Networked Systems</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(29)">
+              <div id="project-name-29" class="project-name">ODNS Measurement Tools</div>
+            </div>
+            <div id="more-info-29" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/netd-tud/odns-measurement-tools" href="https://github.com/netd-tud/odns-measurement-tools" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/netd-tud/odns-measurement-tools" href="https://github.com/netd-tud/odns-measurement-tools" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="BSD-2-Clause" id="license-29" class="license-item">BSD-2-Clause</div>
+        </div>
+      </div>
+      <div id="30" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cms-labs.org/" target="_blank" title="https://www.cms-labs.org/">
+                <span id="chair-30">Networked Systems Modeling</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(30)">
+              <div id="project-name-30" class="project-name">OMNeT++</div>
+            </div>
+            <div id="more-info-30" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://omnetpp.org/" href="https://omnetpp.org/" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/omnetpp/omnetpp" href="https://github.com/omnetpp/omnetpp" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="custom" id="license-30" class="license-item">custom</div>
+        </div>
+      </div>
+      <div id="31" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cms-labs.org/" target="_blank" title="https://www.cms-labs.org/">
+                <span id="chair-31">Networked Systems Modeling</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(31)">
+              <div id="project-name-31" class="project-name">OMNeT++ INET Framework</div>
+            </div>
+            <div id="more-info-31" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://inet.omnetpp.org/" href="https://inet.omnetpp.org/" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/inet-framework/inet" href="https://github.com/inet-framework/inet" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="LGPL-3.0-or-later and others" id="license-31" class="license-item">LGPL-3.0-or-later and others</div>
+        </div>
+      </div>
+      <div id="32" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/ki/wr" target="_blank" title="https://tu-dresden.de/ing/informatik/ki/wr">
+                <span id="chair-32">Scientific Computing for Systems Biology</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(32)">
+              <div id="project-name-32" class="project-name">OpenFPM</div>
+            </div>
+            <div id="more-info-32" title="Scalable middleware and domain-specific language for scientific computing on CPU and GPU clusters with transparent parallelization." class="project-more-info-popup">Scalable middleware and domain-specific language for scientific computing on CPU and GPU clusters with transparent parallelization.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="http://openfpm.mpi-cbg.de/" href="http://openfpm.mpi-cbg.de/" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/mosaic-group/openfpm/" href="https://github.com/mosaic-group/openfpm/" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="BSD-3-Clause" id="license-32" class="license-item">BSD-3-Clause</div>
+        </div>
+      </div>
+      <div id="33" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://mlcv.inf.tu-dresden.de/index-de.html" target="_blank" title="https://mlcv.inf.tu-dresden.de/index-de.html">
+                <span id="chair-33">MLCV</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(33)">
+              <div id="project-name-33" class="project-name">OpenGM</div>
+            </div>
+            <div id="more-info-33" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/opengm/opengm" href="https://github.com/opengm/opengm" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/opengm/opengm" href="https://github.com/opengm/opengm" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="34" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-34">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(34)">
+              <div id="project-name-34" class="project-name">OpenPME</div>
+            </div>
+            <div id="more-info-34" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/Nesrinekh/OpenPME" href="https://github.com/Nesrinekh/OpenPME" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/Nesrinekh/OpenPME" href="https://github.com/Nesrinekh/OpenPME" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="ISC" id="license-34" class="license-item">ISC</div>
+        </div>
+      </div>
+      <div id="35" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://mlcv.inf.tu-dresden.de/index-de.html" target="_blank" title="https://mlcv.inf.tu-dresden.de/index-de.html">
+                <span id="chair-35">MLCV</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(35)">
+              <div id="project-name-35" class="project-name">Partial Optimality in Cubic Correlation Clustering</div>
+            </div>
+            <div id="more-info-35" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/dsteindd/partial-optimality-in-cubic-correlation-clustering" href="https://github.com/dsteindd/partial-optimality-in-cubic-correlation-clustering" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/dsteindd/partial-optimality-in-cubic-correlation-clustering" href="https://github.com/dsteindd/partial-optimality-in-cubic-correlation-clustering" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="36" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/sya/netd" target="_blank" title="https://tu-dresden.de/ing/informatik/sya/netd">
+                <span id="chair-36">Chair of Distributed and Networked Systems</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(36)">
+              <div id="project-name-36" class="project-name">PrioBike</div>
+            </div>
+            <div id="more-info-36" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/priobike/" href="https://github.com/priobike/" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/priobike/" href="https://github.com/priobike/" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="MIT" id="license-36" class="license-item">MIT</div>
+        </div>
+      </div>
+      <div id="37" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-37">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(37)">
+              <div id="project-name-37" class="project-name">reactor-cpp</div>
+            </div>
+            <div id="more-info-37" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/lf-lang/reactor-cpp" href="https://github.com/lf-lang/reactor-cpp" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/lf-lang/reactor-cpp" href="https://github.com/lf-lang/reactor-cpp" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="ISC" id="license-37" class="license-item">ISC</div>
+        </div>
+      </div>
+      <div id="38" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/sya/netd" target="_blank" title="https://tu-dresden.de/ing/informatik/sya/netd">
+                <span id="chair-38">Chair of Distributed and Networked Systems</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(38)">
+              <div id="project-name-38" class="project-name">RIOT</div>
+            </div>
+            <div id="more-info-38" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+          <img src="images/projects/RIOT-logo.png" class="project-logo">
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://riot-os.org" href="https://riot-os.org" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/RIOT-OS/RIOT" href="https://github.com/RIOT-OS/RIOT" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="LGPL" id="license-38" class="license-item">LGPL</div>
+        </div>
+      </div>
+      <div id="39" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/sya/netd" target="_blank" title="https://tu-dresden.de/ing/informatik/sya/netd">
+                <span id="chair-39">Chair of Distributed and Networked Systems</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(39)">
+              <div id="project-name-39" class="project-name">RTRlib</div>
+            </div>
+            <div id="more-info-39" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://rtrlib.realmv6.org/" href="https://rtrlib.realmv6.org/" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/rtrlib" href="https://github.com/rtrlib" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="MIT" id="license-39" class="license-item">MIT</div>
+        </div>
+      </div>
+      <div id="40" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-40">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(40)">
+              <div id="project-name-40" class="project-name">RTSim</div>
+            </div>
+            <div id="more-info-40" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/tud-ccc/RTSim" href="https://github.com/tud-ccc/RTSim" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/tud-ccc/RTSim" href="https://github.com/tud-ccc/RTSim" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="41" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://fis.tu-dresden.de/portal/en/organisations/chair-of-knowledgebased-systems-cfaed(a23c12a9-49de-430a-a628-2b9fed16bfa1).html" target="_blank" title="https://fis.tu-dresden.de/portal/en/organisations/chair-of-knowledgebased-systems-cfaed(a23c12a9-49de-430a-a628-2b9fed16bfa1).html">
+                <span id="chair-41">Knowledge-Based Systems</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(41)">
+              <div id="project-name-41" class="project-name">Rulewerk</div>
+            </div>
+            <div id="more-info-41" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/knowsys/rulewerk" href="https://github.com/knowsys/rulewerk" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/knowsys/rulewerk" href="https://github.com/knowsys/rulewerk" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="Apache-2.0" id="license-41" class="license-item">Apache-2.0</div>
+        </div>
+      </div>
+      <div id="42" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/ki/wr" target="_blank" title="https://tu-dresden.de/ing/informatik/ki/wr">
+                <span id="chair-42">Scientific Computing for Systems Biology</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(42)">
+              <div id="project-name-42" class="project-name">Scenery</div>
+            </div>
+            <div id="more-info-42" title="Platform-portable VR/AR visualization and driver library including distributed rendering of very large datasets and user-interaction modalities." class="project-more-info-popup">Platform-portable VR/AR visualization and driver library including distributed rendering of very large datasets and user-interaction modalities.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://sbalzarini-lab.org/?q=downloads/scenery" href="https://sbalzarini-lab.org/?q=downloads/scenery" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/scenerygraphics/scenery" href="https://github.com/scenerygraphics/scenery" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="LGPL-3" id="license-42" class="license-item">LGPL-3</div>
+        </div>
+      </div>
+      <div id="43" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur" target="_blank" title="https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur">
+                <span id="chair-43">Computer Architecture</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(43)">
+              <div id="project-name-43" class="project-name">Score-P</div>
+            </div>
+            <div id="more-info-43" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://gitlab.com/score-p/scorep" href="https://gitlab.com/score-p/scorep" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://gitlab.com/score-p/scorep" href="https://gitlab.com/score-p/scorep" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="BSD-style" id="license-43" class="license-item">BSD-style</div>
+        </div>
+      </div>
+      <div id="44" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur" target="_blank" title="https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur">
+                <span id="chair-44">Computer Architecture</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(44)">
+              <div id="project-name-44" class="project-name">Score-P autotools</div>
+            </div>
+            <div id="more-info-44" title="This contains multiple packages. My latest contributions were for the NEC compiler suite" class="project-more-info-popup">This contains multiple packages. My latest contributions were for the NEC compiler suite</div>
+            <div class="project-tags">
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://gitlab.jsc.fz-juelich.de/perftools/utils/" href="https://gitlab.jsc.fz-juelich.de/perftools/utils/" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://perftools.pages.jsc.fz-juelich.de/utils/perftools-dev/perftools-dev-latest.tar.gz" href="https://perftools.pages.jsc.fz-juelich.de/utils/perftools-dev/perftools-dev-latest.tar.gz" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="GPL-3.0+" id="license-44" class="license-item">GPL-3.0+</div>
+        </div>
+      </div>
+      <div id="45" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur" target="_blank" title="https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur">
+                <span id="chair-45">Computer Architecture</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(45)">
+              <div id="project-name-45" class="project-name">Score-P libsensors Plugin Counter</div>
+            </div>
+            <div id="more-info-45" title="There are various plugins available, which I maintain and contribute to this is one of them." class="project-more-info-popup">There are various plugins available, which I maintain and contribute to this is one of them.</div>
+            <div class="project-tags">
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/score-p/scorep_plugin_libsensors" href="https://github.com/score-p/scorep_plugin_libsensors" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/score-p/scorep_plugin_libsensors" href="https://github.com/score-p/scorep_plugin_libsensors" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title='BSD 3-Clause "New" or "Revised" License' id="license-45" class="license-item">BSD 3-Clause "New" or "Revised" License</div>
+        </div>
+      </div>
+      <div id="46" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-46">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(46)">
+              <div id="project-name-46" class="project-name">Sigi-frontend</div>
+            </div>
+            <div id="more-info-46" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/tud-ccc/kp-mlir-sigi-frontend" href="https://github.com/tud-ccc/kp-mlir-sigi-frontend" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="Apache-2.0" id="license-46" class="license-item">Apache-2.0</div>
+        </div>
+      </div>
+      <div id="47" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-47">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(47)">
+              <div id="project-name-47" class="project-name">Sigi-mlir</div>
+            </div>
+            <div id="more-info-47" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/tud-ccc/kp-mlir-sigi-mlir" href="https://github.com/tud-ccc/kp-mlir-sigi-mlir" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="MIT" id="license-47" class="license-item">MIT</div>
+        </div>
+      </div>
+      <div id="48" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://fis.tu-dresden.de/portal/en/organisations/chair-of-knowledgebased-systems-cfaed(a23c12a9-49de-430a-a628-2b9fed16bfa1).html" target="_blank" title="https://fis.tu-dresden.de/portal/en/organisations/chair-of-knowledgebased-systems-cfaed(a23c12a9-49de-430a-a628-2b9fed16bfa1).html">
+                <span id="chair-48">Knowledge-Based Systems</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(48)">
+              <div id="project-name-48" class="project-name">SQID</div>
+            </div>
+            <div id="more-info-48" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://sqid.toolforge.org/" href="https://sqid.toolforge.org/" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/Wikidata/SQID/" href="https://github.com/Wikidata/SQID/" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="Apache-2.0" id="license-48" class="license-item">Apache-2.0</div>
+        </div>
+      </div>
+      <div id="49" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://fis.tu-dresden.de/portal/en/organisations/chair-of-machine-learning-for-spatial-understanding-scadsai-dresdenleipzig(69b2a2a2-aede-411d-a762-df4bb49490eb).html" target="_blank" title="https://fis.tu-dresden.de/portal/en/organisations/chair-of-machine-learning-for-spatial-understanding-scadsai-dresdenleipzig(69b2a2a2-aede-411d-a762-df4bb49490eb).html">
+                <span id="chair-49">Chair of Machine Learning for Spatial Understanding</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(49)">
+              <div id="project-name-49" class="project-name">stardist</div>
+            </div>
+            <div id="more-info-49" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/stardist/stardist" href="https://github.com/stardist/stardist" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/stardist/stardist" href="https://github.com/stardist/stardist" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="BSD-3-Clause" id="license-49" class="license-item">BSD-3-Clause</div>
+        </div>
+      </div>
+      <div id="50" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cms-labs.org/" target="_blank" title="https://www.cms-labs.org/">
+                <span id="chair-50">Networked Systems Modeling</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(50)">
+              <div id="project-name-50" class="project-name">Veins</div>
+            </div>
+            <div id="more-info-50" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://veins.car2x.org/" href="https://veins.car2x.org/" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/sommer/veins" href="https://github.com/sommer/veins" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="GPL-2.0-or-later and more" id="license-50" class="license-item">GPL-2.0-or-later and more</div>
+        </div>
+      </div>
+      <div id="51" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/smt/im" target="_blank" title="https://tu-dresden.de/ing/informatik/smt/im">
+                <span id="chair-51">Gestaltung Immersive Medien</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(51)">
+              <div id="project-name-51" class="project-name">ViewR</div>
+            </div>
+            <div id="more-info-51" title="We maintain a internal repo that is under active development, preparing for a large update of the public facing repo." class="project-more-info-popup">We maintain a internal repo that is under active development, preparing for a large update of the public facing repo.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/ixlabTUD/ViewR" href="https://github.com/ixlabTUD/ViewR" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/ixlabTUD/ViewR" href="https://github.com/ixlabTUD/ViewR" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="Apache-2.0" id="license-51" class="license-item">Apache-2.0</div>
+        </div>
+      </div>
+      <div id="52" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur" target="_blank" title="https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur">
+                <span id="chair-52">Computer Architecture</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+            </div>
+            <div class="project-row" onclick="popUp(52)">
+              <div id="project-name-52" class="project-name">X86-Energy Libraries</div>
+            </div>
+            <div id="more-info-52" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/tud-zih-energy/x86_energy" href="https://github.com/tud-zih-energy/x86_energy" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/tud-zih-energy/x86_energy" href="https://github.com/tud-zih-energy/x86_energy" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="LGPL-2.1" id="license-52" class="license-item">LGPL-2.1</div>
+        </div>
+      </div>
+      <h2 id="no-longer-involved" class="no-longer-involved-header">Projects where the research group is no longer involved</h2>
+      <div id="53" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://tu-dresden.de/ing/informatik/ai/mci" target="_blank" title="https://tu-dresden.de/ing/informatik/ai/mci">
+                <span id="chair-53">Human-Computer-Interaction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+              <span class="not-involved">- no longer involved</span>
+            </div>
+            <div class="project-row" onclick="popUp(53)">
+              <div id="project-name-53" class="project-name">BrailleIO</div>
+            </div>
+            <div id="more-info-53" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag maintainer">Maintainer</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="no URL, publication Bornschein, J. (2014, November). BrailleIO–a tactile display abstraction framework. In The Proceedings of Workshop Tactile/Haptic User Interfaces for Tabletops and Tablets (TacTT 2014). S (pp. 36-41)." href="no%20URL,%20publication%20Bornschein,%20J.%20(2014,%20November).%20BrailleIO%E2%80%93a%20tactile%20display%20abstraction%20framework.%20In%20The%20Proceedings%20of%20Workshop%20Tactile/Haptic%20User%20Interfaces%20for%20Tabletops%20and%20Tablets%20(TacTT%202014).%20S%20(pp.%2036-41)." target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/TUD-INF-IAI-MCI/BrailleIO" href="https://github.com/TUD-INF-IAI-MCI/BrailleIO" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="BSD-2-Clause" id="license-53" class="license-item">BSD-2-Clause</div>
+        </div>
+      </div>
+      <div id="54" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-54">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+              <span class="not-involved">- no longer involved</span>
+            </div>
+            <div class="project-row" onclick="popUp(54)">
+              <div id="project-name-54" class="project-name">dear</div>
+            </div>
+            <div id="more-info-54" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/tud-ccc/dear" href="https://github.com/tud-ccc/dear" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/tud-ccc/dear" href="https://github.com/tud-ccc/dear" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="ISC" id="license-54" class="license-item">ISC</div>
+        </div>
+      </div>
+      <div id="55" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-55">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+              <span class="not-involved">- no longer involved</span>
+            </div>
+            <div class="project-row" onclick="popUp(55)">
+              <div id="project-name-55" class="project-name">gem5</div>
+            </div>
+            <div id="more-info-55" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://www.gem5.org/" href="https://www.gem5.org/" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://www.gem5.org/" href="https://www.gem5.org/" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="BSD-3-Clause" id="license-55" class="license-item">BSD-3-Clause</div>
+        </div>
+      </div>
+      <div id="56" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-56">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+              <span class="not-involved">- no longer involved</span>
+            </div>
+            <div class="project-row" onclick="popUp(56)">
+              <div id="project-name-56" class="project-name">GraalVM with Role Support</div>
+            </div>
+            <div id="more-info-56" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/lschuetze/graal" href="https://github.com/lschuetze/graal" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/lschuetze/graal" href="https://github.com/lschuetze/graal" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="GPL-2.0 with the “Classpath” Exception" id="license-56" class="license-item">GPL-2.0 with the “Classpath” Exception</div>
+        </div>
+      </div>
+      <div id="57" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-57">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+              <span class="not-involved">- no longer involved</span>
+            </div>
+            <div class="project-row" onclick="popUp(57)">
+              <div id="project-name-57" class="project-name">Mobile trace generator</div>
+            </div>
+            <div id="more-info-57" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/tud-ccc/mobile-traces" href="https://github.com/tud-ccc/mobile-traces" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/tud-ccc/mobile-traces" href="https://github.com/tud-ccc/mobile-traces" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="ISC" id="license-57" class="license-item">ISC</div>
+        </div>
+      </div>
+      <div id="58" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-58">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+              <span class="not-involved">- no longer involved</span>
+            </div>
+            <div class="project-row" onclick="popUp(58)">
+              <div id="project-name-58" class="project-name">mpsym</div>
+            </div>
+            <div id="more-info-58" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/tud-ccc/mpsym" href="https://github.com/tud-ccc/mpsym" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/tud-ccc/mpsym" href="https://github.com/tud-ccc/mpsym" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="MIT" id="license-58" class="license-item">MIT</div>
+        </div>
+      </div>
+      <div id="59" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-59">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+              <span class="not-involved">- no longer involved</span>
+            </div>
+            <div class="project-row" onclick="popUp(59)">
+              <div id="project-name-59" class="project-name">Object Teams</div>
+            </div>
+            <div id="more-info-59" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://www.eclipse.org/objectteams/" href="https://www.eclipse.org/objectteams/" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://gitlab.eclipse.org/eclipse/objectteams/objectteams" href="https://gitlab.eclipse.org/eclipse/objectteams/objectteams" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="EPL-2.0" id="license-59" class="license-item">EPL-2.0</div>
+        </div>
+      </div>
+      <div id="60" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-60">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+              <span class="not-involved">- no longer involved</span>
+            </div>
+            <div class="project-row" onclick="popUp(60)">
+              <div id="project-name-60" class="project-name">Object Teams InvokeDynamic</div>
+            </div>
+            <div id="more-info-60" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/lschuetze/objectteams-poly" href="https://github.com/lschuetze/objectteams-poly" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/lschuetze/objectteams-poly" href="https://github.com/lschuetze/objectteams-poly" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="EPL-2.0" id="license-60" class="license-item">EPL-2.0</div>
+        </div>
+      </div>
+      <div id="61" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-61">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+              <span class="not-involved">- no longer involved</span>
+            </div>
+            <div class="project-row" onclick="popUp(61)">
+              <div id="project-name-61" class="project-name">polygym</div>
+            </div>
+            <div id="more-info-61" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/PolyGym" href="https://github.com/PolyGym" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/PolyGym" href="https://github.com/PolyGym" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="62" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-62">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+              <span class="not-involved">- no longer involved</span>
+            </div>
+            <div class="project-row" onclick="popUp(62)">
+              <div id="project-name-62" class="project-name">RTM Compiler</div>
+            </div>
+            <div id="more-info-62" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/tud-ccc/rtm-compiler" href="https://github.com/tud-ccc/rtm-compiler" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/tud-ccc/rtm-compiler" href="https://github.com/tud-ccc/rtm-compiler" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="BSD-2-Clause" id="license-62" class="license-item">BSD-2-Clause</div>
+        </div>
+      </div>
+      <div id="63" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://fis.tu-dresden.de/portal/en/organisations/chair-of-knowledgebased-systems-cfaed(a23c12a9-49de-430a-a628-2b9fed16bfa1).html" target="_blank" title="https://fis.tu-dresden.de/portal/en/organisations/chair-of-knowledgebased-systems-cfaed(a23c12a9-49de-430a-a628-2b9fed16bfa1).html">
+                <span id="chair-63">Knowledge-Based Systems</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+              <span class="not-involved">- no longer involved</span>
+            </div>
+            <div class="project-row" onclick="popUp(63)">
+              <div id="project-name-63" class="project-name">Semantic MediaWiki</div>
+            </div>
+            <div id="more-info-63" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://www.semantic-mediawiki.org" href="https://www.semantic-mediawiki.org" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/SemanticMediaWiki/SemanticMediaWiki/" href="https://github.com/SemanticMediaWiki/SemanticMediaWiki/" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="GPL" id="license-63" class="license-item">GPL</div>
+        </div>
+      </div>
+      <div id="64" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://www.cfaed.tu-dresden.de/ccc-about" target="_blank" title="https://www.cfaed.tu-dresden.de/ccc-about">
+                <span id="chair-64">Chair for Compiler Construction</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+              <span class="not-involved">- no longer involved</span>
+            </div>
+            <div class="project-row" onclick="popUp(64)">
+              <div id="project-name-64" class="project-name">Tetris</div>
+            </div>
+            <div id="more-info-64" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/l3nkz/tetris" href="https://github.com/l3nkz/tetris" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/l3nkz/tetris" href="https://github.com/l3nkz/tetris" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="GPL-3.0" id="license-64" class="license-item">GPL-3.0</div>
+        </div>
+      </div>
+      <div id="65" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://fis.tu-dresden.de/portal/en/organisations/chair-of-knowledgebased-systems-cfaed(a23c12a9-49de-430a-a628-2b9fed16bfa1).html" target="_blank" title="https://fis.tu-dresden.de/portal/en/organisations/chair-of-knowledgebased-systems-cfaed(a23c12a9-49de-430a-a628-2b9fed16bfa1).html">
+                <span id="chair-65">Knowledge-Based Systems</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+              <span class="not-involved">- no longer involved</span>
+            </div>
+            <div class="project-row" onclick="popUp(65)">
+              <div id="project-name-65" class="project-name">VLog</div>
+            </div>
+            <div id="more-info-65" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag contributor">Contributor</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/karmaresearch/vlog" href="https://github.com/karmaresearch/vlog" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/karmaresearch/vlog" href="https://github.com/karmaresearch/vlog" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="Apache-2.0" id="license-65" class="license-item">Apache-2.0</div>
+        </div>
+      </div>
+      <div id="66" class="project">
+        <div class="project-main">
+          <div class="project-main-left">
+            <div class="project-chair">
+              <a class="chair" href="https://fis.tu-dresden.de/portal/en/organisations/chair-of-knowledgebased-systems-cfaed(a23c12a9-49de-430a-a628-2b9fed16bfa1).html" target="_blank" title="https://fis.tu-dresden.de/portal/en/organisations/chair-of-knowledgebased-systems-cfaed(a23c12a9-49de-430a-a628-2b9fed16bfa1).html">
+                <span id="chair-66">Knowledge-Based Systems</span>
+                <img src="images/external-link-svgrepo-com-grey.svg" style="height: 16px" class="chair-link-img">
+              </a>
+              <span class="not-involved">- no longer involved</span>
+            </div>
+            <div class="project-row" onclick="popUp(66)">
+              <div id="project-name-66" class="project-name">Wikidata Toolkit</div>
+            </div>
+            <div id="more-info-66" title="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam." class="project-more-info-popup">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</div>
+            <div class="project-tags">
+              <span class="tag founder">Founder</span>
+              <span class="tag maintainer">Maintainer</span>
+            </div>
+          </div>
+        </div>
+        <div class="link-footer">
+          <div class="link-footer-left">
+            <a title="https://github.com/Wikidata/Wikidata-Toolkit" href="https://github.com/Wikidata/Wikidata-Toolkit" target="_blank" class="link-item">
+              <span class="link-item-text">Project Site</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+            <a title="https://github.com/Wikidata/Wikidata-Toolkit" href="https://github.com/Wikidata/Wikidata-Toolkit" target="_blank" class="link-item">
+              <span class="link-item-text">Code</span>
+              <img src="images/external-link-svgrepo-com-white.svg" style="height: 20px">
+            </a>
+          </div>
+          <div title="Apache-2.0" id="license-66" class="license-item">Apache-2.0</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
