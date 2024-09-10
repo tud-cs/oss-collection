@@ -2,8 +2,6 @@ function onFilterChange() {
     const search = document.getElementById("search")
     const searchValue = search.value.toLowerCase()
 
-    console.log("Search value: " + searchValue)
-
     roleToFilter = document.getElementById("role").value
     licenseToFilter = document.getElementById("license").value
     chairToFilter = document.getElementById("chair").value
@@ -20,11 +18,12 @@ function onFilterChange() {
         // Filter projects for each filter set
         for (let project of projects) {
             const i = project.id
+
+            const groups = project.getElementsByClassName("chair-name")
     
             if (searchValue !== "" && searchValue.length > 2) {
                 const title = document.getElementById("project-name-" + i).innerHTML.toLowerCase()
                 const description = document.getElementById("more-info-" + i).innerHTML.toLowerCase()
-                const chair = document.getElementById("chair-" + i).innerHTML.toLowerCase()
                 const licenseElement = document.getElementById("license-" + i)
                 let license = licenseElement !== null ? licenseElement.innerHTML.toLowerCase() : ""
 
@@ -58,7 +57,12 @@ function onFilterChange() {
                     }
                 }
 
-                if (!title.includes(searchValue) && !description.includes(searchValue) && !chair.includes(searchValue) && !license.includes(searchValue) && !containsTag) {
+                includesGroup = false
+                for (let group of groups) {
+                    includesGroup = includesGroup || group.innerHTML.toLowerCase().includes(searchValue)
+                }
+
+                if (!title.includes(searchValue) && !description.includes(searchValue) && !includesGroup && !license.includes(searchValue) && !containsTag) {
                     project.style.display = "none"
                     continue;
                 }
@@ -79,7 +83,7 @@ function onFilterChange() {
             }
     
             if (chairToFilter !== "") {
-                if (!containsChair(i, chairToFilter)) {
+                if (!containsChair(groups, chairToFilter)) {
                     project.style.display = "none"
                     continue;
                 }
@@ -135,18 +139,14 @@ function containsLicense(idx, liceseToFilter) {
     return txt.innerHTML == liceseToFilter
 }
 
-function containsChair(idx, chairToFilter) {
-    console.log(chairToFilter)
-    const chair = document.getElementById("chair-" + idx)
-    if (chair === null) {
-        return false
+function containsChair(groups, chairToFilter) {
+    for (let group of groups) {
+        if (group.innerHTML.includes(chairToFilter)) {
+            return true
+        }
     }
 
-    // Decode HTML entities
-    const txt = document.createElement('textarea');
-	txt.innerHTML = chair.innerHTML;
-
-    return chairToFilter === txt.value
+    return false
 }
 
 function containsStillInvolved(project, stillInvolvedToFilter) {

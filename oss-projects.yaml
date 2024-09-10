@@ -17,7 +17,7 @@
   groups: [ "MLSU" ]
   founder: true
   maintainer: false
-  contributer: false
+  contributor: false
   involved: true
 - name: stardist
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -27,7 +27,7 @@
   groups: [ "MLSU" ]
   founder: true
   maintainer: false
-  contributer: false
+  contributor: false
   involved: true
 - name: BrailleIO
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -37,7 +37,7 @@
   groups: [ "HCI" ]
   founder: false
   maintainer: true
-  contributer: false
+  contributor: false
   involved: false
 - name: AccessibleMaps
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -47,7 +47,7 @@
   groups: [ "HCI" ]
   founder: false
   maintainer: false
-  contributer: true
+  contributor: true
   involved: true
 - name: OpenFPM
   description: Scalable middleware and domain-specific language for scientific computing on CPU and GPU clusters with transparent parallelization.
@@ -57,14 +57,14 @@
   groups: [ "SCSB" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: MOSAICsuite
   website: https://sbalzarini-lab.org/?q=downloads/imageJ
   repository: https://git.mpi-cbg.de/mosaic/software/bio-imaging/MosaicSuite
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   license: GPL-3.0
   involved: true
   description: Plugin suite for the popular bio-image analysis software "Image/J" and "Fiji" with all image processing and analysis methods from our group. Around 30'000 unique-IP starts ups per day worldwide.
@@ -76,7 +76,7 @@
   groups: [ "SCSB" ]
   founder: true
   maintainer: false
-  contributer: true
+  contributor: true
   involved: true
 - name: libAPR, pyapr, apr-napari
   description: C++ core library for the adaptive particle representation (APR) of images, including its Python package (pyapr) and plugin for the image viewer "napari" (napari-apr) as well as an APR-native volume renderer and a Big Data Viewer for distributed and tiled volume images.
@@ -86,7 +86,7 @@
   groups: [ "SCSB" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: Nemo
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -95,7 +95,7 @@
   license: Apache-2.0 and MIT
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: Semantic MediaWiki
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -105,7 +105,7 @@
   groups: [ "KBS" ]
   founder: true
   maintainer: true
-  contributer: false
+  contributor: false
   involved: false
 - name: Wikidata Toolkit
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -115,7 +115,7 @@
   groups: [ "KBS" ]
   founder: true
   maintainer: true
-  contributer: false
+  contributor: false
   involved: false
 - name: Rulewerk
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -125,7 +125,7 @@
   groups: [ "KBS" ]
   founder: true
   maintainer: true
-  contributer: false
+  contributor: false
   involved: true
 - name: VLog
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -135,7 +135,7 @@
   groups: [ "KBS" ]
   founder: false
   maintainer: false
-  contributer: true
+  contributor: true
   involved: false
 - name: SQID
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -145,7 +145,7 @@
   groups: [ "KBS" ]
   founder: true
   maintainer: true
-  contributer: false
+  contributor: false
   involved: true
 - name: conexp-clj
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -155,7 +155,7 @@
   groups: [ "KBS" ]
   founder: false
   maintainer: false
-  contributer: true
+  contributor: true
   involved: true
 - name: AN.ON
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -165,7 +165,7 @@
   groups: [ "PSEC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: dudle
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -175,7 +175,7 @@
   groups: [ "PSEC" ]
   founder: false
   maintainer: false
-  contributer: true
+  contributor: true
   involved: true
 - name: Veins
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -185,7 +185,7 @@
   groups: [ "NSM" ]
   founder: true
   maintainer: false
-  contributer: false
+  contributor: false
   involved: true
 - name: Eclipse SUMO
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -195,7 +195,7 @@
   groups: [ "NSM" ]
   founder: false
   maintainer: false
-  contributer: true
+  contributor: true
   involved: true
 - name: OMNeT++ INET Framework
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -205,7 +205,7 @@
   groups: [ "NSM" ]
   founder: false
   maintainer: false
-  contributer: true
+  contributor: true
   involved: true
 - name: ACM LaTeX template
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -215,7 +215,7 @@
   groups: [ "NSM" ]
   founder: false
   maintainer: false
-  contributer: true
+  contributor: true
   involved: True
 - name: OMNeT++
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -225,7 +225,7 @@
   groups: [ "NSM" ]
   founder: false
   maintainer: false
-  contributer: true
+  contributor: true
   involved: true
 - name: condrust
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -235,7 +235,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: base2-mlir
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -245,7 +245,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: dfg-mlir
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -255,7 +255,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: Cinnamon
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -264,7 +264,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: Sigi-mlir
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -273,7 +273,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: Sigi-frontend
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -282,7 +282,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: Mocasin
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -292,7 +292,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: Lingua Franca
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -302,7 +302,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: reactor-cpp
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -312,7 +312,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: gem5
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -322,7 +322,7 @@
   groups: [ "CC" ]
   founder: false
   maintainer: false
-  contributer: true
+  contributor: true
   involved: false
 - name: Tetris
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -332,7 +332,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: false
 - name: RTSim
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -341,7 +341,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: RTM Compiler
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -351,7 +351,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: false
 - name: OpenPME
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -361,7 +361,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: Object Teams
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -371,7 +371,7 @@
   groups: [ "CC" ]
   founder: false
   maintainer: false
-  contributer: true
+  contributor: true
   involved: false
 - name: Object Teams InvokeDynamic
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -381,7 +381,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: false
 - name: GraalVM with Role Support
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -391,7 +391,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: false
 - name: messner
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -401,7 +401,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: Mobile trace generator
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -411,7 +411,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: false
 - name: compy-learn
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -421,7 +421,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: dear
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -431,7 +431,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: false
 - name: polygym
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -440,7 +440,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: false
 - name: mpsym
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -450,7 +450,7 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: false
 - name: learning-compiler-graphs
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -459,16 +459,16 @@
   groups: [ "CC" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: A 4-Approximation Algorithm for Min Max Correlation Clustering
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
   website: https://github.com/JannikIrmai/min-max-correlation-clustering
   repository: https://github.com/JannikIrmai/min-max-correlation-clustering
-  chait: [ "MLCV" ]
+  groups: [ "MLCV" ]
   founder: true
   maintainer: false
-  contributer: false
+  contributor: false
   involved: True
 - name: Partial Optimality in Cubic Correlation Clustering
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -477,7 +477,7 @@
   groups: [ "MLCV" ]
   founder: true
   maintainer: false
-  contributer: false
+  contributor: false
   involved: True
 - name: OpenGM
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -486,7 +486,7 @@
   groups: [ "MLCV" ]
   founder: true
   maintainer: false
-  contributer: false
+  contributor: false
   involved: True
 - name: Marray
   description: Now largely adopted into ISO C++ as std::span
@@ -495,7 +495,7 @@
   groups: [ "MLCV" ]
   founder: true
   maintainer: false
-  contributer: false
+  contributor: false
   involved: True
 - name: Graphs and graph algorithms in C++
   description: This project sits in a small niche. For most applications, BGL, Blitz or Lemon are a better choice.
@@ -505,7 +505,7 @@
   groups: [ "MLCV" ]
   founder: true
   maintainer: false
-  contributer: false
+  contributor: false
   involved: True
 - name: FIRESTARTER
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -515,7 +515,7 @@
   groups: [ "CA" ]
   founder: false
   maintainer: false
-  contributer: true
+  contributor: true
   involved: true
 - name: BenchIT
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -525,7 +525,7 @@
   groups: [ "CA" ]
   founder: false
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: Score-P libsensors Plugin Counter
   description: There are various plugins available, which I maintain and contribute to this is one of them.
@@ -535,7 +535,7 @@
   groups: [ "CA" ]
   founder: false
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: Linux kernel
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -545,7 +545,7 @@
   groups: [ "CA" ]
   founder: false
   maintainer: false
-  contributer: true
+  contributor: true
   involved: True
 - name: X86-Energy Libraries
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -555,7 +555,7 @@
   groups: [ "CA" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: Score-P autotools
   description: This contains multiple packages. My latest contributions were for the NEC compiler suite
@@ -565,7 +565,7 @@
   groups: [ "CA" ]
   founder: false
   maintainer: false
-  contributer: true
+  contributor: true
   involved: True
 - name: Score-P
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -575,7 +575,7 @@
   groups: [ "CA" ]
   founder: false
   maintainer: false
-  contributer: true
+  contributor: true
   involved: true
 - name: ViewR
   description: We maintain a internal repo that is under active development, preparing for a large update of the public facing repo.
@@ -585,7 +585,7 @@
   groups: [ "IM" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: FAIL*
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -594,7 +594,7 @@
   license: GPL-3.0
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: CP2K
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -604,7 +604,7 @@
   groups: [ "CSS" ]
   founder: false
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: RTRlib
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -614,7 +614,7 @@
   groups: [ "NETD" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
 - name: AMCS
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -622,7 +622,7 @@
   groups: [ "NETD" ]
   founder: true
   maintainer: false
-  contributer: false
+  contributor: false
   involved: true
 - name: PrioBike
   description: App and services of a traffic light assistance system for cyclists
@@ -632,7 +632,7 @@
   groups: [ "NETD" ]
   founder: true
   maintainer: false
-  contributer: true
+  contributor: true
   involved: true
 - name: GNU Taler
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -642,7 +642,7 @@
   groups: [ "NETD" ]
   founder: false
   maintainer: false
-  contributer: true
+  contributor: true
   involved: true
 - name: ODNS Measurement Tools
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
@@ -652,5 +652,5 @@
   groups: [ "NETD" ]
   founder: true
   maintainer: true
-  contributer: true
+  contributor: true
   involved: true
