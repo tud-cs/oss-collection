@@ -60,14 +60,15 @@
   contributor: true
   involved: true
 - name: MOSAICsuite
+  description: Plugin suite for the popular bio-image analysis software "Image/J" and "Fiji" with all image processing and analysis methods from our group. Around 30'000 unique-IP starts ups per day worldwide.
   website: https://sbalzarini-lab.org/?q=downloads/imageJ
   repository: https://git.mpi-cbg.de/mosaic/software/bio-imaging/MosaicSuite
+  license: GPL-3.0
+  groups: [ "SCSB" ]
   founder: true
   maintainer: true
   contributor: true
-  license: GPL-3.0
   involved: true
-  description: Plugin suite for the popular bio-image analysis software "Image/J" and "Fiji" with all image processing and analysis methods from our group. Around 30'000 unique-IP starts ups per day worldwide.
 - name: Scenery
   description: Platform-portable VR/AR visualization and driver library including distributed rendering of very large datasets and user-interaction modalities.
   website: https://sbalzarini-lab.org/?q=downloads/scenery
@@ -93,6 +94,7 @@
   website: https://github.com/knowsys/nemo
   repository: https://github.com/knowsys/nemo
   license: Apache-2.0 and MIT
+  groups: [ "KBS" ]
   founder: true
   maintainer: true
   contributor: true
@@ -592,6 +594,7 @@
   website: https://github.com/danceos/fail
   repository: https://github.com/danceos/fail
   license: GPL-3.0
+  groups: [ "OS" ]
   founder: true
   maintainer: true
   contributor: true
