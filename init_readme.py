@@ -67,7 +67,7 @@ def generate_markdown_from_yaml(oss_projects_file, cs_groups_file, markdown_file
             if maintainer:
                 project_entry += "(Maintainer) "
 
-        contributor = project.get("contributer")
+        contributor = project.get("contributor")
         if contributor is not None or type(contributor)!=bool:
             if contributor:
                 project_entry += "(Contributor) "

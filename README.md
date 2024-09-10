@@ -70,7 +70,7 @@ License: N/A
 ---
 ### AccessibleMaps
 
-Research Group: [Chair of Human-Computer-Interaction](https://tu-dresden.de/ing/informatik/ai/mci?set_language=en) 
+Research Group: [Chair of Human-Computer-Interaction](https://tu-dresden.de/ing/informatik/ai/mci?set_language=en) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -81,7 +81,7 @@ License: MIT
 ---
 ### ACM LaTeX template
 
-Research Group: [Chair of Networked Systems Modeling](https://www.cms-labs.org/) 
+Research Group: [Chair of Networked Systems Modeling](https://www.cms-labs.org/) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -103,7 +103,7 @@ License: N/A
 ---
 ### AN.ON
 
-Research Group: [Chair of Privacy and Security](https://tu-dresden.de/ing/informatik/sya/ps?set_language=en) (Founder) (Maintainer) 
+Research Group: [Chair of Privacy and Security](https://tu-dresden.de/ing/informatik/sya/ps?set_language=en) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -114,7 +114,7 @@ License: BSD-style
 ---
 ### base2-mlir
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) 
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -125,7 +125,7 @@ License: ISC
 ---
 ### BenchIT
 
-Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Maintainer) 
+Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -147,7 +147,7 @@ License: BSD-2-Clause
 ---
 ### Cinnamon
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) 
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -158,7 +158,7 @@ License: MIT
 ---
 ### compy-learn
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) 
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -169,7 +169,7 @@ License: Apache-2.0
 ---
 ### condrust
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) 
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -180,7 +180,7 @@ License: ISC
 ---
 ### conexp-clj
 
-Research Group: [Chair of Knowledge-Based Systems](https://iccl.inf.tu-dresden.de/web/Wissensbasierte_Systeme/en) 
+Research Group: [Chair of Knowledge-Based Systems](https://iccl.inf.tu-dresden.de/web/Wissensbasierte_Systeme/en) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -191,7 +191,7 @@ License: EPL-1.0
 ---
 ### CP2K
 
-Research Group: [Computational Systems Science](N/A) (Maintainer) 
+Research Group: [Computational Systems Science](N/A) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -213,7 +213,7 @@ License: BSD-3-Clause
 ---
 ### dear
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) - no longer involved
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -224,7 +224,7 @@ License: ISC
 ---
 ### dfg-mlir
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) 
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -235,7 +235,7 @@ License: ISC
 ---
 ### dudle
 
-Research Group: [Chair of Privacy and Security](https://tu-dresden.de/ing/informatik/sya/ps?set_language=en) 
+Research Group: [Chair of Privacy and Security](https://tu-dresden.de/ing/informatik/sya/ps?set_language=en) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -246,7 +246,7 @@ License: AGPL-3.0
 ---
 ### Eclipse SUMO
 
-Research Group: [Chair of Networked Systems Modeling](https://www.cms-labs.org/) 
+Research Group: [Chair of Networked Systems Modeling](https://www.cms-labs.org/) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -257,7 +257,7 @@ License: EPL-2.0 and more
 ---
 ### FAIL*
 
-Research Group: [Chair of Operating Systems](https://tu-dresden.de/ing/informatik/sya/professur-fuer-betriebssysteme?set_language=en) (Founder) (Maintainer) 
+Research Group: [Chair of Operating Systems](https://tu-dresden.de/ing/informatik/sya/professur-fuer-betriebssysteme?set_language=en) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -268,7 +268,7 @@ License: GPL-3.0
 ---
 ### FIRESTARTER
 
-Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) 
+Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -279,7 +279,7 @@ License: GPL-3.0
 ---
 ### gem5
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) - no longer involved
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Contributor) - no longer involved
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -290,7 +290,7 @@ License: BSD-3-Clause
 ---
 ### GNU Taler
 
-Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) 
+Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -301,7 +301,7 @@ License: GPL
 ---
 ### GraalVM with Role Support
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) - no longer involved
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -323,7 +323,7 @@ License: MIT
 ---
 ### learning-compiler-graphs
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) 
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -334,7 +334,7 @@ License: N/A
 ---
 ### libAPR, pyapr, apr-napari
 
-Research Group: [Chair of Scientific Computing for Systems Biology](https://tu-dresden.de/ing/informatik/ki/wr?set_language=en) (Founder) (Maintainer) 
+Research Group: [Chair of Scientific Computing for Systems Biology](https://tu-dresden.de/ing/informatik/ki/wr?set_language=en) (Founder) (Maintainer) (Contributor) 
 
 More information: C++ core library for the adaptive particle representation (APR) of images, including its Python package (pyapr) and plugin for the image viewer "napari" (napari-apr) as well as an APR-native volume renderer and a Big Data Viewer for distributed and tiled volume images.
 
@@ -345,7 +345,7 @@ License: Apache-2.0
 ---
 ### Lingua Franca
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) 
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -356,7 +356,7 @@ License: BSD-2-Clause
 ---
 ### Linux kernel
 
-Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) 
+Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -378,7 +378,7 @@ License: N/A
 ---
 ### messner
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) 
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -389,7 +389,7 @@ License: ISC
 ---
 ### Mobile trace generator
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) - no longer involved
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -400,7 +400,7 @@ License: ISC
 ---
 ### Mocasin
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) 
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -411,7 +411,7 @@ License: ISC
 ---
 ### MOSAICsuite
 
-Research Group: [Chair of Scientific Computing for Systems Biology](https://tu-dresden.de/ing/informatik/ki/wr?set_language=en) (Founder) (Maintainer) 
+Research Group: [Chair of Scientific Computing for Systems Biology](https://tu-dresden.de/ing/informatik/ki/wr?set_language=en) (Founder) (Maintainer) (Contributor) 
 
 More information: Plugin suite for the popular bio-image analysis software "Image/J" and "Fiji" with all image processing and analysis methods from our group. Around 30'000 unique-IP starts ups per day worldwide.
 
@@ -422,7 +422,7 @@ License: GPL-3.0
 ---
 ### mpsym
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) - no longer involved
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -433,7 +433,7 @@ License: MIT
 ---
 ### Nemo
 
-Research Group: [Chair of Knowledge-Based Systems](https://iccl.inf.tu-dresden.de/web/Wissensbasierte_Systeme/en) (Founder) (Maintainer) 
+Research Group: [Chair of Knowledge-Based Systems](https://iccl.inf.tu-dresden.de/web/Wissensbasierte_Systeme/en) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -444,7 +444,7 @@ License: Apache-2.0 and MIT
 ---
 ### Object Teams
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) - no longer involved
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Contributor) - no longer involved
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -455,7 +455,7 @@ License: EPL-2.0
 ---
 ### Object Teams InvokeDynamic
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) - no longer involved
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -466,7 +466,7 @@ License: EPL-2.0
 ---
 ### ODNS Measurement Tools
 
-Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) (Maintainer) 
+Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -477,7 +477,7 @@ License: BSD-2-Clause
 ---
 ### OMNeT++
 
-Research Group: [Chair of Networked Systems Modeling](https://www.cms-labs.org/) 
+Research Group: [Chair of Networked Systems Modeling](https://www.cms-labs.org/) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -488,7 +488,7 @@ License: custom
 ---
 ### OMNeT++ INET Framework
 
-Research Group: [Chair of Networked Systems Modeling](https://www.cms-labs.org/) 
+Research Group: [Chair of Networked Systems Modeling](https://www.cms-labs.org/) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -499,7 +499,7 @@ License: LGPL-3.0-or-later and others
 ---
 ### OpenFPM
 
-Research Group: [Chair of Scientific Computing for Systems Biology](https://tu-dresden.de/ing/informatik/ki/wr?set_language=en) (Founder) (Maintainer) 
+Research Group: [Chair of Scientific Computing for Systems Biology](https://tu-dresden.de/ing/informatik/ki/wr?set_language=en) (Founder) (Maintainer) (Contributor) 
 
 More information: Scalable middleware and domain-specific language for scientific computing on CPU and GPU clusters with transparent parallelization.
 
@@ -521,7 +521,7 @@ License: N/A
 ---
 ### OpenPME
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) 
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -543,7 +543,7 @@ License: N/A
 ---
 ### polygym
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) - no longer involved
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -554,7 +554,7 @@ License: N/A
 ---
 ### PrioBike
 
-Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) 
+Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) (Contributor) 
 
 More information: App and services of a traffic light assistance system for cyclists
 
@@ -565,7 +565,7 @@ License: MIT
 ---
 ### reactor-cpp
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) 
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -578,7 +578,7 @@ License: ISC
 
 <img align="right" height="100" src="./website/images/projects/RIOT-logo.png">
 
-Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) (Maintainer) 
+Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -589,7 +589,7 @@ License: LGPL
 ---
 ### RTM Compiler
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) - no longer involved
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -600,7 +600,7 @@ License: BSD-2-Clause
 ---
 ### RTRlib
 
-Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) (Maintainer) 
+Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -611,7 +611,7 @@ License: MIT
 ---
 ### RTSim
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) 
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -633,7 +633,7 @@ License: Apache-2.0
 ---
 ### Scenery
 
-Research Group: [Chair of Scientific Computing for Systems Biology](https://tu-dresden.de/ing/informatik/ki/wr?set_language=en) (Founder) 
+Research Group: [Chair of Scientific Computing for Systems Biology](https://tu-dresden.de/ing/informatik/ki/wr?set_language=en) (Founder) (Contributor) 
 
 More information: Platform-portable VR/AR visualization and driver library including distributed rendering of very large datasets and user-interaction modalities.
 
@@ -644,7 +644,7 @@ License: LGPL-3
 ---
 ### Score-P
 
-Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) 
+Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -655,7 +655,7 @@ License: BSD-style
 ---
 ### Score-P autotools
 
-Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) 
+Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Contributor) 
 
 More information: This contains multiple packages. My latest contributions were for the NEC compiler suite
 
@@ -666,7 +666,7 @@ License: GPL-3.0+
 ---
 ### Score-P libsensors Plugin Counter
 
-Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Maintainer) 
+Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Maintainer) (Contributor) 
 
 More information: There are various plugins available, which I maintain and contribute to this is one of them.
 
@@ -688,7 +688,7 @@ License: GPL
 ---
 ### Sigi-frontend
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) 
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -699,7 +699,7 @@ License: Apache-2.0
 ---
 ### Sigi-mlir
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) 
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -732,7 +732,7 @@ License: BSD-3-Clause
 ---
 ### Tetris
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) - no longer involved
+Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -754,7 +754,7 @@ License: GPL-2.0-or-later and more
 ---
 ### ViewR
 
-Research Group: [Junior Professorship in Immersive Media](https://tu-dresden.de/ing/informatik/smt/im?set_language=en) (Founder) (Maintainer) 
+Research Group: [Junior Professorship in Immersive Media](https://tu-dresden.de/ing/informatik/smt/im?set_language=en) (Founder) (Maintainer) (Contributor) 
 
 More information: We maintain a internal repo that is under active development, preparing for a large update of the public facing repo.
 
@@ -765,7 +765,7 @@ License: Apache-2.0
 ---
 ### VLog
 
-Research Group: [Chair of Knowledge-Based Systems](https://iccl.inf.tu-dresden.de/web/Wissensbasierte_Systeme/en) - no longer involved
+Research Group: [Chair of Knowledge-Based Systems](https://iccl.inf.tu-dresden.de/web/Wissensbasierte_Systeme/en) (Contributor) - no longer involved
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -787,7 +787,7 @@ License: Apache-2.0
 ---
 ### X86-Energy Libraries
 
-Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Founder) (Maintainer) 
+Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
