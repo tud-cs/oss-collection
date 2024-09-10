@@ -1,6 +1,6 @@
 # TU Dresden - Computer Science: Open Source Projects
 
-This repository contains functionality to generate a HTML and markdown site of all projects entered in `projects.yaml`.
+This repository contains functionality to generate a HTML and markdown site of all projects entered in `oss-projects.yaml` and computer science groups in `cs-groups.yaml`.
 
 Run `init_site.py` to generate a static HTML page with an overview of all projects.
 
@@ -8,37 +8,50 @@ Run `init_readme.py` to generate README of this repository containing all projec
 
 ## Add a new project
 
-Keys in `projects.yaml`
+Keys in `oss-projects.yaml`
 | Name | Type | Required? |
 |------|------|------|
-| `To which Chair do you belong to at the Faculty of Computer Science?` | `string` | ✅ |
-| `Name of the open source project` | `string` | ✅ |
-| `Your role in the open source project? [Founder]` | `boolean` | ✅ |
-| `Your role in the open source project? [Maintainer]` | `boolean` | ✅ |
-| `Your role in the open source project? [Contributor]` | `boolean` | ✅ |
-| `Are you still involved?` | `boolean` | ✅ |
-| `Anything else you want to let us know?` | `string` | ✅ |
-| `License under which the open source project is available` | `string` | Optional |
-| `URL of the open source project` | `string` | Optional |
-| `URL of the public repository` | `string` | Optional |
-| `URL to the chair` | `string` | Optional |
-| `image` | `string` | Optional |
+| `name` | `string` | ✅ |
+| `description` | `string` | ✅ |
+| `groups` | `string[]` | ✅ |
+| `founder` | `boolean` | ✅ |
+| `maintainer` | `boolean` | ✅ |
+| `contributer` | `boolean` | ✅ |
+| `involved` | `boolean` | ✅ |
+| `website` | `string` | Optional |
+| `repository` | `string` | Optional |
+| `license` | `string` | Optional |
+| `logo` | `string` | Optional |
 
-Append this template to `projcets.yaml` and fill in your data:
+Keys in `cs-groups.yaml`
+| Name | Type | Required? |
+|------|------|------|
+| `name` | `string` | ✅ |
+| `handle` | `string` | ✅ |
+| `website` | `string` | Optional |
+
+Append this template to `oss-projects.yaml` and fill in your data:
 ```yaml
-- To which Chair do you belong to at the Faculty of Computer Science?:  
-  URL to the chair: 
-  Name of the open source project: 
-  URL of the open source project: 
-  URL of the public repository: 
-  Your role in the open source project? [Founder]: 
-  Your role in the open source project? [Maintainer]: 
-  Your role in the open source project? [Contributor]: 
-  License under which the open source project is available: 
-  Are you still involved?: 
-  Anything else you want to let us know?: 
-  image: 
+- name:
+  description:
+  website:
+  repository:
+  license:
+  groups: []
+  founder:
+  maintainer:
+  contributer:
+  involved:
+  logo:
 ```
 
-For the image, upload the image to the `images` folder and enter the relative URL to the image in the `images` folder.
+For the logo, upload the logo to the `images/projects` folder and enter the relative URL to the logo in the `images/projects` folder.
 
+For the groups add the handle of your computer science group to the list.
+
+If your computer science group does not exist yet, append this template to `cs-groups.yaml` and fill in your data:
+```yaml
+- name: 
+  handle: 
+  website: 
+```

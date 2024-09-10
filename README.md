@@ -1,6 +1,6 @@
 # TU Dresden - Computer Science: Open Source Projects
 
-This repository contains functionality to generate a HTML and markdown site of all projects entered in `projects.yaml`.
+This repository contains functionality to generate a HTML and markdown site of all projects entered in `oss-projects.yaml` and computer science groups in `cs-groups.yaml`.
 
 Run `init_site.py` to generate a static HTML page with an overview of all projects.
 
@@ -8,45 +8,58 @@ Run `init_readme.py` to generate README of this repository containing all projec
 
 ## Add a new project
 
-Keys in `projects.yaml`
+Keys in `oss-projects.yaml`
 | Name | Type | Required? |
 |------|------|------|
-| `To which Chair do you belong to at the Faculty of Computer Science?` | `string` | ✅ |
-| `Name of the open source project` | `string` | ✅ |
-| `Your role in the open source project? [Founder]` | `boolean` | ✅ |
-| `Your role in the open source project? [Maintainer]` | `boolean` | ✅ |
-| `Your role in the open source project? [Contributor]` | `boolean` | ✅ |
-| `Are you still involved?` | `boolean` | ✅ |
-| `Anything else you want to let us know?` | `string` | ✅ |
-| `License under which the open source project is available` | `string` | Optional |
-| `URL of the open source project` | `string` | Optional |
-| `URL of the public repository` | `string` | Optional |
-| `URL to the chair` | `string` | Optional |
-| `image` | `string` | Optional |
+| `name` | `string` | ✅ |
+| `description` | `string` | ✅ |
+| `groups` | `string[]` | ✅ |
+| `founder` | `boolean` | ✅ |
+| `maintainer` | `boolean` | ✅ |
+| `contributer` | `boolean` | ✅ |
+| `involved` | `boolean` | ✅ |
+| `website` | `string` | Optional |
+| `repository` | `string` | Optional |
+| `license` | `string` | Optional |
+| `logo` | `string` | Optional |
 
-Append this template to `projcets.yaml` and fill in your data:
+Keys in `cs-groups.yaml`
+| Name | Type | Required? |
+|------|------|------|
+| `name` | `string` | ✅ |
+| `handle` | `string` | ✅ |
+| `website` | `string` | Optional |
+
+Append this template to `oss-projects.yaml` and fill in your data:
 ```yaml
-- To which Chair do you belong to at the Faculty of Computer Science?:  
-  URL to the chair: 
-  Name of the open source project: 
-  URL of the open source project: 
-  URL of the public repository: 
-  Your role in the open source project? [Founder]: 
-  Your role in the open source project? [Maintainer]: 
-  Your role in the open source project? [Contributor]: 
-  License under which the open source project is available: 
-  Are you still involved?: 
-  Anything else you want to let us know?: 
-  image: 
+- name:
+  description:
+  website:
+  repository:
+  license:
+  groups: []
+  founder:
+  maintainer:
+  contributer:
+  involved:
+  logo:
 ```
 
-For the image, upload the image to the `images` folder and enter the relative URL to the image in the `images` folder.
+For the logo, upload the logo to the `images/projects` folder and enter the relative URL to the logo in the `images/projects` folder.
 
+For the groups add the handle of your computer science group to the list.
+
+If your computer science group does not exist yet, append this template to `cs-groups.yaml` and fill in your data:
+```yaml
+- name: 
+  handle: 
+  website: 
+```
 
 # Projects
 ### A 4-Approximation Algorithm for Min Max Correlation Clustering
 
-Research Group: [Chair of Machine Learning for Computer Vision](https://mlcv.inf.tu-dresden.de/index-de.html) (Founder) 
+Research Group: N/A (Founder) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -79,7 +92,7 @@ License: LPPL-1.3c
 ---
 ### AMCS
 
-Research Group: [Chair of Distributed and Networked Systems](https://tu-dresden.de/ing/informatik/sya/netd?set_language=en) (Founder) 
+Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -178,7 +191,7 @@ License: EPL-1.0
 ---
 ### CP2K
 
-Research Group: Computational Systems Science (Maintainer) (Contributor) 
+Research Group: [Computational Systems Science](N/A) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -244,7 +257,7 @@ License: EPL-2.0 and more
 ---
 ### FAIL*
 
-Research Group: [Chair of Operating Systems](https://tu-dresden.de/ing/informatik/sya/professur-fuer-betriebssysteme?set_language=en) (Founder) (Maintainer) (Contributor) 
+Research Group: N/A (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -277,7 +290,7 @@ License: BSD-3-Clause
 ---
 ### GNU Taler
 
-Research Group: [Chair of Distributed and Networked Systems](https://tu-dresden.de/ing/informatik/sya/netd?set_language=en) (Contributor) 
+Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -398,7 +411,7 @@ License: ISC
 ---
 ### MOSAICsuite
 
-Research Group: [Chair of Scientific Computing for Systems Biology](https://tu-dresden.de/ing/informatik/ki/wr?set_language=en) (Founder) (Maintainer) (Contributor) 
+Research Group: N/A (Founder) (Maintainer) (Contributor) 
 
 More information: Plugin suite for the popular bio-image analysis software "Image/J" and "Fiji" with all image processing and analysis methods from our group. Around 30'000 unique-IP starts ups per day worldwide.
 
@@ -420,7 +433,7 @@ License: MIT
 ---
 ### Nemo
 
-Research Group: [Chair of Knowledge-Based Systems](https://iccl.inf.tu-dresden.de/web/Wissensbasierte_Systeme/en) (Founder) (Maintainer) (Contributor) 
+Research Group: N/A (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -453,7 +466,7 @@ License: EPL-2.0
 ---
 ### ODNS Measurement Tools
 
-Research Group: [Chair of Distributed and Networked Systems](https://tu-dresden.de/ing/informatik/sya/netd?set_language=en) (Founder) (Maintainer) (Contributor) 
+Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -541,7 +554,7 @@ License: N/A
 ---
 ### PrioBike
 
-Research Group: [Chair of Distributed and Networked Systems](https://tu-dresden.de/ing/informatik/sya/netd?set_language=en) (Founder) (Contributor) 
+Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) (Contributor) 
 
 More information: App and services of a traffic light assistance system for cyclists
 
@@ -565,7 +578,7 @@ License: ISC
 
 <img align="right" height="100" src="./website/images/projects/RIOT-logo.png">
 
-Research Group: [Chair of Distributed and Networked Systems](https://tu-dresden.de/ing/informatik/sya/netd?set_language=en) (Founder) (Maintainer) (Contributor) 
+Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) (Maintainer) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -587,7 +600,7 @@ License: BSD-2-Clause
 ---
 ### RTRlib
 
-Research Group: [Chair of Distributed and Networked Systems](https://tu-dresden.de/ing/informatik/sya/netd?set_language=en) (Founder) (Maintainer) (Contributor) 
+Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) (Maintainer) (Contributor) 
 
 More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
@@ -741,7 +754,7 @@ License: GPL-2.0-or-later and more
 ---
 ### ViewR
 
-Research Group: [Junior Professorship in Immersive Media](https://tu-dresden.de/ing/informatik/smt/im?set_language=en) (Founder) (Maintainer) (Contributor) 
+Research Group: [unior Professorship in Immersive Media](https://tu-dresden.de/ing/informatik/smt/im?set_language=en) (Founder) (Maintainer) (Contributor) 
 
 More information: We maintain a internal repo that is under active development, preparing for a large update of the public facing repo.
 
