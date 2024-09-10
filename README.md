@@ -40,7 +40,7 @@ Append this template to `oss-projects.yaml` and fill in your data:
   groups: []
   founder:
   maintainer:
-  contributer:
+  contributor:
   involved:
   logo:
 ```
