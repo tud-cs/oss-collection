@@ -113,7 +113,7 @@ def generate_html_from_yaml(oss_projects_file, cs_groups_file, html_file, output
         project_main.append(project_main_left)
 
         # Project image
-        img_src = f"images/projects/{project['image']}" if project.get("image") else ""
+        img_src = f"images/projects/{project['logo']}" if project.get("logo") else ""
         if img_src:
             img = etree.SubElement(project_main, "img", src=img_src, attrib={"class": "project-logo"})
 
