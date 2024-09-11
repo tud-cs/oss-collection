@@ -641,7 +641,7 @@
   description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
   website: https://taler.net/de/index.html
   repository: https://git.taler.net/
-  license: GPL
+  license: 
   groups: [ "NETD" ]
   founder: false
   maintainer: false
@@ -653,7 +653,7 @@
   repository: https://github.com/netd-tud/odns-measurement-tools
   license: BSD-2-Clause
   groups: [ "NETD" ]
-  founder: true
+  
   maintainer: true
   contributor: true
   involved: true
