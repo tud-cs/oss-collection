@@ -45,7 +45,7 @@ Append this template to `oss-projects.yaml` and fill in your data:
   logo:
 ```
 
-For the logo, upload the logo to the `images/projects` folder and enter the relative URL to the logo in the `images/projects` folder.
+For the logo, upload the logo to the `website/images/projects` folder and enter the relative URL to the logo in the `website/images/projects` folder.
 
 For the groups, add the handle of your research group to the list.
 
