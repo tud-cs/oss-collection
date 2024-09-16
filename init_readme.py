@@ -14,12 +14,14 @@ def generate_markdown_from_yaml(oss_projects_file, cs_groups_file, markdown_file
         cs_groups = yaml.load(f, Loader=yaml.Loader)
 
     markdown_content += "\n"
-    markdown_content += "# Projects"
 
     project_list = ""
 
     projects.sort(key=lambda x: x.get("name", "zzzzzz").lower())
     for project in projects:
+        project_list += "---"
+        project_list += "\n"
+        
         project_entry = "### "
 
         project_name = project.get("name")
@@ -104,8 +106,6 @@ def generate_markdown_from_yaml(oss_projects_file, cs_groups_file, markdown_file
 
         project_list += project_entry
         project_list += "\n\n"
-        project_list += "---"
-        project_list += "\n"
 
     markdown_content += "\n"
     markdown_content += project_list 
