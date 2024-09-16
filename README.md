@@ -1,6 +1,6 @@
-# TU Dresden - Computer Science: Open Source Projects
+# Open Source Projects of the Faculty of Computer Science at TU Dresden
 
-This repository contains functionality to generate a HTML and markdown site of all projects entered in `oss-projects.yaml` and computer science groups in `cs-groups.yaml`.
+This repository contains scripts and data to generate HTML and markdown files presenting open source software projects of the [Faculty of Computer Science](https://cs.tu-dresden.de) at [TU Dresden](https://www.tu-dresden.de). The sources of information are `oss-projects.yaml`, which describes the projects, and `cs-groups.yaml`, which describes the research groups involved.
 
 Run `init_site.py` to generate a static HTML page with an overview of all projects.
 
@@ -9,26 +9,26 @@ Run `init_readme.py` to generate README of this repository containing all projec
 ## Add a new project
 
 Keys in `oss-projects.yaml`
-| Name | Type | Required? |
-|------|------|------|
-| `name` | `string` | ✅ |
-| `description` | `string` | ✅ |
-| `groups` | `string[]` | ✅ |
-| `founder` | `boolean` | ✅ |
-| `maintainer` | `boolean` | ✅ |
-| `contributor` | `boolean` | ✅ |
-| `involved` | `boolean` | ✅ |
-| `website` | `string` | Optional |
-| `repository` | `string` | Optional |
-| `license` | `string` | Optional |
-| `logo` | `string` | Optional |
+| Name | Type | Required? | Description |
+|------|------|------|-----|
+| `name` | `string` | ✅ | `The name of the project` |
+| `description` | `string` | Optional | `A short description of the project` |
+| `groups` | `string[]` | ✅ | `The handles of the research groups that are part of the project (See cs-groups.yaml)` |
+| `founder` | `boolean` | ✅ | `If you are the founder of the project` |
+| `maintainer` | `boolean` | ✅ | `If you are a maintainer of the project` |
+| `contributor` | `boolean` | ✅ | `If you are a contributor of the project` |
+| `involved` | `boolean` | ✅ | `If you are still involved` |
+| `website` | `string` | Optional | `A link to the website of the project` |
+| `repository` | `string` | Optional | `URL of the public repository` |
+| `license` | `string` | Optional | `The license under which the project is available` |
+| `logo` | `string` | Optional | `The relative path to the logo of your project in the projects directory (Place your logo in /website/images/projects)` |
 
 Keys in `cs-groups.yaml`
-| Name | Type | Required? |
-|------|------|------|
-| `name` | `string` | ✅ |
-| `handle` | `string` | ✅ |
-| `website` | `string` | Optional |
+| Name | Type | Required? | Description |
+|------|------|------|-----|
+| `name` | `string` | ✅ | `The name of the research group` |
+| `handle` | `string` | ✅ | `The handle of the research group` |
+| `website` | `string` | Optional | `URL to the website of the research group` |
 
 Append this template to `oss-projects.yaml` and fill in your data:
 ```yaml
@@ -47,21 +47,23 @@ Append this template to `oss-projects.yaml` and fill in your data:
 
 For the logo, upload the logo to the `images/projects` folder and enter the relative URL to the logo in the `images/projects` folder.
 
-For the groups add the handle of your computer science group to the list.
+For the groups, add the handle of your research group to the list.
 
-If your computer science group does not exist yet, append this template to `cs-groups.yaml` and fill in your data:
+If your research group does not exist yet, append this template to `cs-groups.yaml` and fill in your data:
 ```yaml
 - name: 
   handle: 
   website: 
 ```
 
+The following list presents open source software projects in which members of the Faculty of Computer Science at TU Dresden are involved.
+
 # Projects
 ### A 4-Approximation Algorithm for Min Max Correlation Clustering
 
 Research Group: [Chair of Machine Learning for Computer Vision](https://mlcv.inf.tu-dresden.de/index-de.html) (Founder) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: N/A
 
@@ -72,7 +74,7 @@ License: N/A
 
 Research Group: [Chair of Human-Computer-Interaction](https://tu-dresden.de/ing/informatik/ai/mci?set_language=en) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: MIT
 
@@ -83,7 +85,7 @@ License: MIT
 
 Research Group: [Chair of Networked Systems Modeling](https://www.cms-labs.org/) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: LPPL-1.3c
 
@@ -94,7 +96,7 @@ License: LPPL-1.3c
 
 Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: N/A
 
@@ -105,7 +107,7 @@ License: N/A
 
 Research Group: [Chair of Privacy and Security](https://tu-dresden.de/ing/informatik/sya/ps?set_language=en) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: BSD-style
 
@@ -116,7 +118,7 @@ License: BSD-style
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: ISC
 
@@ -127,7 +129,7 @@ License: ISC
 
 Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: BSD'ish
 
@@ -138,7 +140,7 @@ License: BSD'ish
 
 Research Group: [Chair of Human-Computer-Interaction](https://tu-dresden.de/ing/informatik/ai/mci?set_language=en) (Maintainer) - no longer involved
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: BSD-2-Clause
 
@@ -149,7 +151,7 @@ License: BSD-2-Clause
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: MIT
 
@@ -160,7 +162,7 @@ License: MIT
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: Apache-2.0
 
@@ -171,7 +173,7 @@ License: Apache-2.0
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: ISC
 
@@ -182,7 +184,7 @@ License: ISC
 
 Research Group: [Chair of Knowledge-Based Systems](https://iccl.inf.tu-dresden.de/web/Wissensbasierte_Systeme/en) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: EPL-1.0
 
@@ -193,7 +195,7 @@ License: EPL-1.0
 
 Research Group: [Computational Systems Science](N/A) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: GPL-2.0
 
@@ -204,7 +206,7 @@ License: GPL-2.0
 
 Research Group: [Chair of Machine Learning for Spatial Understanding](https://fis.tu-dresden.de/portal/en/organisations/chair-of-machine-learning-for-spatial-understanding-scadsai-dresdenleipzig(69b2a2a2-aede-411d-a762-df4bb49490eb).html) (Founder) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: BSD-3-Clause
 
@@ -215,7 +217,7 @@ License: BSD-3-Clause
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: ISC
 
@@ -226,7 +228,7 @@ License: ISC
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: ISC
 
@@ -237,7 +239,7 @@ License: ISC
 
 Research Group: [Chair of Privacy and Security](https://tu-dresden.de/ing/informatik/sya/ps?set_language=en) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: AGPL-3.0
 
@@ -248,7 +250,7 @@ License: AGPL-3.0
 
 Research Group: [Chair of Networked Systems Modeling](https://www.cms-labs.org/) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: EPL-2.0 and more
 
@@ -259,7 +261,7 @@ License: EPL-2.0 and more
 
 Research Group: [Chair of Operating Systems](https://tu-dresden.de/ing/informatik/sya/professur-fuer-betriebssysteme?set_language=en) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: GPL-3.0
 
@@ -270,7 +272,7 @@ License: GPL-3.0
 
 Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: GPL-3.0
 
@@ -281,7 +283,7 @@ License: GPL-3.0
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Contributor) - no longer involved
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: BSD-3-Clause
 
@@ -292,7 +294,7 @@ License: BSD-3-Clause
 
 Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: GPL
 
@@ -303,7 +305,7 @@ License: GPL
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: GPL-2.0 with the “Classpath” Exception
 
@@ -325,7 +327,7 @@ License: MIT
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: N/A
 
@@ -347,7 +349,7 @@ License: Apache-2.0
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: BSD-2-Clause
 
@@ -358,7 +360,7 @@ License: BSD-2-Clause
 
 Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: GPL-2.0
 
@@ -380,7 +382,7 @@ License: N/A
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: ISC
 
@@ -391,7 +393,7 @@ License: ISC
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: ISC
 
@@ -402,7 +404,7 @@ License: ISC
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: ISC
 
@@ -424,7 +426,7 @@ License: GPL-3.0
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: MIT
 
@@ -435,7 +437,7 @@ License: MIT
 
 Research Group: [Chair of Knowledge-Based Systems](https://iccl.inf.tu-dresden.de/web/Wissensbasierte_Systeme/en) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: Apache-2.0 and MIT
 
@@ -446,7 +448,7 @@ License: Apache-2.0 and MIT
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Contributor) - no longer involved
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: EPL-2.0
 
@@ -457,7 +459,7 @@ License: EPL-2.0
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: EPL-2.0
 
@@ -468,7 +470,7 @@ License: EPL-2.0
 
 Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: BSD-2-Clause
 
@@ -479,7 +481,7 @@ License: BSD-2-Clause
 
 Research Group: [Chair of Networked Systems Modeling](https://www.cms-labs.org/) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: custom
 
@@ -490,7 +492,7 @@ License: custom
 
 Research Group: [Chair of Networked Systems Modeling](https://www.cms-labs.org/) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: LGPL-3.0-or-later and others
 
@@ -512,7 +514,7 @@ License: BSD-3-Clause
 
 Research Group: [Chair of Machine Learning for Computer Vision](https://mlcv.inf.tu-dresden.de/index-de.html) (Founder) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: N/A
 
@@ -523,7 +525,7 @@ License: N/A
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: ISC
 
@@ -534,7 +536,7 @@ License: ISC
 
 Research Group: [Chair of Machine Learning for Computer Vision](https://mlcv.inf.tu-dresden.de/index-de.html) (Founder) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: N/A
 
@@ -545,7 +547,7 @@ License: N/A
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: N/A
 
@@ -567,7 +569,7 @@ License: MIT
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: ISC
 
@@ -580,7 +582,7 @@ License: ISC
 
 Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: LGPL
 
@@ -591,7 +593,7 @@ License: LGPL
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: BSD-2-Clause
 
@@ -602,7 +604,7 @@ License: BSD-2-Clause
 
 Research Group: [Chair of Distributed and Networked Systems](https://netd.cs.tu-dresden.de) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: MIT
 
@@ -613,7 +615,7 @@ License: MIT
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: N/A
 
@@ -624,7 +626,7 @@ License: N/A
 
 Research Group: [Chair of Knowledge-Based Systems](https://iccl.inf.tu-dresden.de/web/Wissensbasierte_Systeme/en) (Founder) (Maintainer) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: Apache-2.0
 
@@ -646,7 +648,7 @@ License: LGPL-3
 
 Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: BSD-style
 
@@ -679,7 +681,7 @@ License: BSD 3-Clause "New" or "Revised" License
 
 Research Group: [Chair of Knowledge-Based Systems](https://iccl.inf.tu-dresden.de/web/Wissensbasierte_Systeme/en) (Founder) (Maintainer) - no longer involved
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: GPL
 
@@ -690,7 +692,7 @@ License: GPL
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: Apache-2.0
 
@@ -701,7 +703,7 @@ License: Apache-2.0
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: MIT
 
@@ -712,7 +714,7 @@ License: MIT
 
 Research Group: [Chair of Knowledge-Based Systems](https://iccl.inf.tu-dresden.de/web/Wissensbasierte_Systeme/en) (Founder) (Maintainer) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: Apache-2.0
 
@@ -723,7 +725,7 @@ License: Apache-2.0
 
 Research Group: [Chair of Machine Learning for Spatial Understanding](https://fis.tu-dresden.de/portal/en/organisations/chair-of-machine-learning-for-spatial-understanding-scadsai-dresdenleipzig(69b2a2a2-aede-411d-a762-df4bb49490eb).html) (Founder) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: BSD-3-Clause
 
@@ -734,7 +736,7 @@ License: BSD-3-Clause
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: GPL-3.0
 
@@ -745,7 +747,7 @@ License: GPL-3.0
 
 Research Group: [Chair of Networked Systems Modeling](https://www.cms-labs.org/) (Founder) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: GPL-2.0-or-later and more
 
@@ -767,7 +769,7 @@ License: Apache-2.0
 
 Research Group: [Chair of Knowledge-Based Systems](https://iccl.inf.tu-dresden.de/web/Wissensbasierte_Systeme/en) (Contributor) - no longer involved
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: Apache-2.0
 
@@ -778,7 +780,7 @@ License: Apache-2.0
 
 Research Group: [Chair of Knowledge-Based Systems](https://iccl.inf.tu-dresden.de/web/Wissensbasierte_Systeme/en) (Founder) (Maintainer) - no longer involved
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: Apache-2.0
 
@@ -789,7 +791,7 @@ License: Apache-2.0
 
 Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Founder) (Maintainer) (Contributor) 
 
-More information: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+More information: N/A
 
 License: LGPL-2.1
 

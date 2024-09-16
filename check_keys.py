@@ -2,7 +2,6 @@ import yaml
 
 REQUIRED_KEYS_PROJECT = {
     "name": str,
-    "description": str, 
     "groups": list, 
     "founder": bool,
     "contributor": bool, 
@@ -11,6 +10,7 @@ REQUIRED_KEYS_PROJECT = {
 }
 
 OPTIONAL_KEYS_PROJECT = {
+    "description": str,
     "license": str,
     "website": str,
     "repository": str,

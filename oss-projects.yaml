@@ -1,7 +1,7 @@
 - name: RIOT
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://riot-os.org
-  repository: 'https://github.com/RIOT-OS/RIOT'
+  repository: https://github.com/RIOT-OS/RIOT
   license: LGPL
   groups: [ "NETD" ]
   founder: true
@@ -10,7 +10,7 @@
   involved: true
   logo: RIOT-logo.png
 - name: CSBDeep
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: http://csbdeep.bioimagecomputing.com/doc/
   repository: https://github.com/CSBDeep/CSBDeep
   license: BSD-3-Clause
@@ -20,7 +20,7 @@
   contributor: false
   involved: true
 - name: stardist
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/stardist/stardist
   repository: https://github.com/stardist/stardist
   license: BSD-3-Clause
@@ -30,7 +30,7 @@
   contributor: false
   involved: true
 - name: BrailleIO
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: no URL, publication Bornschein, J. (2014, November). BrailleIO–a tactile display abstraction framework. In The Proceedings of Workshop Tactile/Haptic User Interfaces for Tabletops and Tablets (TacTT 2014). S (pp. 36-41).
   repository: https://github.com/TUD-INF-IAI-MCI/BrailleIO
   license: BSD-2-Clause
@@ -40,7 +40,7 @@
   contributor: false
   involved: false
 - name: AccessibleMaps
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://accessiblemaps.de/
   repository: https://github.com/AccessibleMaps
   license: MIT
@@ -90,7 +90,7 @@
   contributor: true
   involved: true
 - name: Nemo
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/knowsys/nemo
   repository: https://github.com/knowsys/nemo
   license: Apache-2.0 and MIT
@@ -100,7 +100,7 @@
   contributor: true
   involved: true
 - name: Semantic MediaWiki
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://www.semantic-mediawiki.org
   repository: https://github.com/SemanticMediaWiki/SemanticMediaWiki/
   license: GPL
@@ -110,7 +110,7 @@
   contributor: false
   involved: false
 - name: Wikidata Toolkit
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/Wikidata/Wikidata-Toolkit
   repository: https://github.com/Wikidata/Wikidata-Toolkit
   license: Apache-2.0
@@ -120,7 +120,7 @@
   contributor: false
   involved: false
 - name: Rulewerk
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/knowsys/rulewerk
   repository: https://github.com/knowsys/rulewerk
   license: Apache-2.0
@@ -130,7 +130,7 @@
   contributor: false
   involved: true
 - name: VLog
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/karmaresearch/vlog
   repository: https://github.com/karmaresearch/vlog
   license: Apache-2.0
@@ -140,7 +140,7 @@
   contributor: true
   involved: false
 - name: SQID
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://sqid.toolforge.org/
   repository: https://github.com/Wikidata/SQID/
   license: Apache-2.0
@@ -150,7 +150,7 @@
   contributor: false
   involved: true
 - name: conexp-clj
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/tomhanika/conexp-clj
   repository: https://github.com/tomhanika/conexp-clj
   license: EPL-1.0
@@ -160,7 +160,7 @@
   contributor: true
   involved: true
 - name: AN.ON
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://anon.inf.tu-dresden.de
   repository: https://dud-scm.inf.tu-dresden.de/an.on
   license: BSD-style
@@ -170,7 +170,7 @@
   contributor: true
   involved: true
 - name: dudle
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://dud-poll.inf.tu-dresden.de/
   repository: https://github.com/kellerben/dudle/
   license: AGPL-3.0
@@ -180,7 +180,7 @@
   contributor: true
   involved: true
 - name: Veins
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://veins.car2x.org/
   repository: https://github.com/sommer/veins
   license: GPL-2.0-or-later and more
@@ -190,7 +190,7 @@
   contributor: false
   involved: true
 - name: Eclipse SUMO
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://eclipse.dev/sumo/
   repository: https://github.com/eclipse-sumo/sumo
   license: EPL-2.0 and more
@@ -200,7 +200,7 @@
   contributor: true
   involved: true
 - name: OMNeT++ INET Framework
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://inet.omnetpp.org/
   repository: https://github.com/inet-framework/inet
   license: LGPL-3.0-or-later and others
@@ -210,7 +210,7 @@
   contributor: true
   involved: true
 - name: ACM LaTeX template
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://ctan.org/pkg/acmart
   repository: https://github.com/borisveytsman/acmart
   license: LPPL-1.3c
@@ -220,7 +220,7 @@
   contributor: true
   involved: True
 - name: OMNeT++
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://omnetpp.org/
   repository: https://github.com/omnetpp/omnetpp
   license: custom
@@ -230,7 +230,7 @@
   contributor: true
   involved: true
 - name: condrust
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/ohua-lang/condrust
   repository: https://github.com/ohua-lang/condrust
   license: ISC
@@ -240,7 +240,7 @@
   contributor: true
   involved: true
 - name: base2-mlir
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/KFAFSP/base2-mlir
   repository: https://github.com/KFAFSP/base2-mlir
   license: ISC
@@ -250,7 +250,7 @@
   contributor: true
   involved: true
 - name: dfg-mlir
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/Feliix42/dfg-mlir
   repository: https://github.com/Feliix42/dfg-mlir
   license: ISC
@@ -260,7 +260,7 @@
   contributor: true
   involved: true
 - name: Cinnamon
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/tud-ccc/Cinnamon
   license: MIT
   groups: [ "CC" ]
@@ -269,7 +269,7 @@
   contributor: true
   involved: true
 - name: Sigi-mlir
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/tud-ccc/kp-mlir-sigi-mlir
   license: MIT
   groups: [ "CC" ]
@@ -278,7 +278,7 @@
   contributor: true
   involved: true
 - name: Sigi-frontend
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/tud-ccc/kp-mlir-sigi-frontend
   license: Apache-2.0
   groups: [ "CC" ]
@@ -287,7 +287,7 @@
   contributor: true
   involved: true
 - name: Mocasin
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/tud-ccc/mocasin
   repository: https://github.com/tud-ccc/mocasin
   license: ISC
@@ -297,7 +297,7 @@
   contributor: true
   involved: true
 - name: Lingua Franca
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/lf-lang/lingua-franca
   repository: https://github.com/lf-lang/lingua-franca
   license: BSD-2-Clause
@@ -307,7 +307,7 @@
   contributor: true
   involved: true
 - name: reactor-cpp
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/lf-lang/reactor-cpp
   repository: https://github.com/lf-lang/reactor-cpp
   license: ISC
@@ -317,7 +317,7 @@
   contributor: true
   involved: true
 - name: gem5
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://www.gem5.org/
   repository: https://www.gem5.org/
   license: BSD-3-Clause
@@ -327,7 +327,7 @@
   contributor: true
   involved: false
 - name: Tetris
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/l3nkz/tetris
   repository: https://github.com/l3nkz/tetris
   license: GPL-3.0
@@ -337,7 +337,7 @@
   contributor: true
   involved: false
 - name: RTSim
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/tud-ccc/RTSim
   repository: https://github.com/tud-ccc/RTSim
   groups: [ "CC" ]
@@ -346,7 +346,7 @@
   contributor: true
   involved: true
 - name: RTM Compiler
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/tud-ccc/rtm-compiler
   repository: https://github.com/tud-ccc/rtm-compiler
   license: BSD-2-Clause
@@ -356,7 +356,7 @@
   contributor: true
   involved: false
 - name: OpenPME
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/Nesrinekh/OpenPME
   repository: https://github.com/Nesrinekh/OpenPME
   license: ISC
@@ -366,7 +366,7 @@
   contributor: true
   involved: true
 - name: Object Teams
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://www.eclipse.org/objectteams/
   repository: https://gitlab.eclipse.org/eclipse/objectteams/objectteams
   license: EPL-2.0
@@ -376,7 +376,7 @@
   contributor: true
   involved: false
 - name: Object Teams InvokeDynamic
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/lschuetze/objectteams-poly
   repository: https://github.com/lschuetze/objectteams-poly
   license: EPL-2.0
@@ -386,7 +386,7 @@
   contributor: true
   involved: false
 - name: GraalVM with Role Support
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/lschuetze/graal
   repository: https://github.com/lschuetze/graal
   license: GPL-2.0 with the “Classpath” Exception
@@ -396,7 +396,7 @@
   contributor: true
   involved: false
 - name: messner
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/everest-h2020/messner
   repository: https://github.com/everest-h2020/messner
   license: ISC
@@ -406,7 +406,7 @@
   contributor: true
   involved: true
 - name: Mobile trace generator
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/tud-ccc/mobile-traces
   repository: https://github.com/tud-ccc/mobile-traces
   license: ISC
@@ -416,7 +416,7 @@
   contributor: true
   involved: false
 - name: compy-learn
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/tud-ccc/compy-learn
   repository: https://github.com/tud-ccc/compy-learn
   license: Apache-2.0
@@ -426,7 +426,7 @@
   contributor: true
   involved: true
 - name: dear
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/tud-ccc/dear
   repository: https://github.com/tud-ccc/dear
   license: ISC
@@ -436,7 +436,7 @@
   contributor: true
   involved: false
 - name: polygym
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/PolyGym
   repository: https://github.com/PolyGym
   groups: [ "CC" ]
@@ -445,7 +445,7 @@
   contributor: true
   involved: false
 - name: mpsym
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/tud-ccc/mpsym
   repository: https://github.com/tud-ccc/mpsym
   license: MIT
@@ -455,7 +455,7 @@
   contributor: true
   involved: false
 - name: learning-compiler-graphs
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/tud-ccc/learning-compiler-graphs
   repository: https://github.com/tud-ccc/learning-compiler-graphs
   groups: [ "CC" ]
@@ -464,7 +464,7 @@
   contributor: true
   involved: true
 - name: A 4-Approximation Algorithm for Min Max Correlation Clustering
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/JannikIrmai/min-max-correlation-clustering
   repository: https://github.com/JannikIrmai/min-max-correlation-clustering
   groups: [ "MLCV" ]
@@ -473,7 +473,7 @@
   contributor: false
   involved: True
 - name: Partial Optimality in Cubic Correlation Clustering
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/dsteindd/partial-optimality-in-cubic-correlation-clustering
   repository: https://github.com/dsteindd/partial-optimality-in-cubic-correlation-clustering
   groups: [ "MLCV" ]
@@ -482,7 +482,7 @@
   contributor: false
   involved: True
 - name: OpenGM
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/opengm/opengm
   repository: https://github.com/opengm/opengm
   groups: [ "MLCV" ]
@@ -510,7 +510,7 @@
   contributor: false
   involved: True
 - name: FIRESTARTER
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/tud-zih-energy/FIRESTARTER
   repository: https://github.com/tud-zih-energy/FIRESTARTER
   license: GPL-3.0
@@ -520,7 +520,7 @@
   contributor: true
   involved: true
 - name: BenchIT
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://gitlab.hrz.tu-chemnitz.de/tud-zih-energy/benchit
   repository: https://gitlab.hrz.tu-chemnitz.de/tud-zih-energy/benchit
   license: BSD'ish
@@ -540,7 +540,7 @@
   contributor: true
   involved: true
 - name: Linux kernel
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/torvalds/linux
   repository: https://github.com/torvalds/linux
   license: GPL-2.0
@@ -550,7 +550,7 @@
   contributor: true
   involved: True
 - name: X86-Energy Libraries
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/tud-zih-energy/x86_energy
   repository: https://github.com/tud-zih-energy/x86_energy
   license: LGPL-2.1
@@ -570,7 +570,7 @@
   contributor: true
   involved: True
 - name: Score-P
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://gitlab.com/score-p/scorep
   repository: https://gitlab.com/score-p/scorep
   license: BSD-style
@@ -590,7 +590,7 @@
   contributor: true
   involved: true
 - name: FAIL*
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/danceos/fail
   repository: https://github.com/danceos/fail
   license: GPL-3.0
@@ -600,7 +600,7 @@
   contributor: true
   involved: true
 - name: CP2K
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://cp2k.org
   repository: https://github.com/cp2k
   license: GPL-2.0
@@ -610,7 +610,7 @@
   contributor: true
   involved: true
 - name: RTRlib
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://rtrlib.realmv6.org/
   repository: https://github.com/rtrlib
   license: MIT
@@ -620,7 +620,7 @@
   contributor: true
   involved: true
 - name: AMCS
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://amcs.website/
   groups: [ "NETD" ]
   founder: true
@@ -638,7 +638,7 @@
   contributor: true
   involved: true
 - name: GNU Taler
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://taler.net/de/index.html
   repository: https://git.taler.net/
   license: GPL
@@ -648,7 +648,7 @@
   contributor: true
   involved: true
 - name: ODNS Measurement Tools
-  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.'
+  description: 
   website: https://github.com/netd-tud/odns-measurement-tools
   repository: https://github.com/netd-tud/odns-measurement-tools
   license: BSD-2-Clause

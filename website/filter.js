@@ -23,7 +23,8 @@ function onFilterChange() {
     
             if (searchValue !== "" && searchValue.length > 2) {
                 const title = document.getElementById("project-name-" + i).innerHTML.toLowerCase()
-                const description = document.getElementById("more-info-" + i).innerHTML.toLowerCase()
+                const descriptionElement = document.getElementById("more-info-" + i)
+                let description = descriptionElement != null ? descriptionElement.innerHTML.toLowerCase() : ""
                 const licenseElement = document.getElementById("license-" + i)
                 let license = licenseElement !== null ? licenseElement.innerHTML.toLowerCase() : ""
 
