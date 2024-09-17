@@ -2,9 +2,24 @@
 
 This repository contains scripts and data to generate HTML and markdown files presenting open source software projects of the [Faculty of Computer Science](https://cs.tu-dresden.de) at [TU Dresden](https://www.tu-dresden.de). The sources of information are `oss-projects.yaml`, which describes the projects, and `cs-groups.yaml`, which describes the research groups involved.
 
-Run `init_site.py` to generate a static HTML page with an overview of all projects.
+## How to use?
 
-Run `init_readme.py` to generate the README of this repository containing all projects.
+Install the required packages (e.g. in venv):
+```bash
+pip3 install -r ./requirements.txt
+```
+
+Generate the README of this repository containing all projects:
+```bash
+python3 init_readme.py
+```
+
+Generate a static HTML page with an overview of all projects:
+```bash
+python3 init_site.py
+```
+The generated `index.html` as well as all the other files (CSS, Javascript, images) are in the `website/` folder.
+
 
 ## Add a new project
 
