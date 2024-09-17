@@ -34,6 +34,7 @@ jobs:
 
       - name: Check keys of the projects.yaml file
         run: |
+          source .venv/bin/activate
           python3 check_keys.py >> summary.txt 
 
       - name: Post comment with summary 
@@ -52,6 +53,7 @@ jobs:
 
       - name: Generate HTML site and README.md
         run: |
+          source .venv/bin/activate
           python3 init_site.py
           rm website/base.html
           python3 init_readme.py
