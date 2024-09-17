@@ -9,9 +9,17 @@ Install the required packages (e.g. in venv):
 pip3 install -r ./requirements.txt
 ```
 
-Run `init_site.py` to generate a static HTML page with an overview of all projects.
+Generate the README of this repository containing all projects:
+```bash
+python3 init_readme.py
+```
 
-Run `init_readme.py` to generate the README of this repository containing all projects.
+Generate a static HTML page with an overview of all projects:
+```bash
+python3 init_site.py
+```
+The generated `index.html` as well as all the other files (CSS, Javascript, images) are in the `website/` folder.
+
 
 ## Add a new project
 
