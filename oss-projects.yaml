@@ -1,0 +1,602 @@
+- name: RIOT
+  website: https://riot-os.org
+  repository: https://github.com/RIOT-OS/RIOT
+  license: LGPL
+  groups: [ "NETD" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+  logo: RIOT-logo.png
+- name: CSBDeep
+  website: http://csbdeep.bioimagecomputing.com/doc/
+  repository: https://github.com/CSBDeep/CSBDeep
+  license: BSD-3-Clause
+  groups: [ "MLSU" ]
+  founder: true
+  maintainer: false
+  contributor: false
+  involved: true
+- name: stardist
+  website: https://github.com/stardist/stardist
+  repository: https://github.com/stardist/stardist
+  license: BSD-3-Clause
+  groups: [ "MLSU" ]
+  founder: true
+  maintainer: false
+  contributor: false
+  involved: true
+- name: BrailleIO
+  website: no URL, publication Bornschein, J. (2014, November). BrailleIO–a tactile display abstraction framework. In The Proceedings of Workshop Tactile/Haptic User Interfaces for Tabletops and Tablets (TacTT 2014). S (pp. 36-41).
+  repository: https://github.com/TUD-INF-IAI-MCI/BrailleIO
+  license: BSD-2-Clause
+  groups: [ "HCI" ]
+  founder: false
+  maintainer: true
+  contributor: false
+  involved: false
+- name: AccessibleMaps
+  website: https://accessiblemaps.de/
+  repository: https://github.com/AccessibleMaps
+  license: MIT
+  groups: [ "HCI" ]
+  founder: false
+  maintainer: false
+  contributor: true
+  involved: true
+- name: OpenFPM
+  description: Scalable middleware and domain-specific language for scientific computing on CPU and GPU clusters with transparent parallelization.
+  website: http://openfpm.mpi-cbg.de/
+  repository: https://github.com/mosaic-group/openfpm/
+  license: BSD-3-Clause
+  groups: [ "SCSB" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: MOSAICsuite
+  description: Plugin suite for the popular bio-image analysis software "Image/J" and "Fiji" with all image processing and analysis methods from our group. Around 30'000 unique-IP starts ups per day worldwide.
+  website: https://sbalzarini-lab.org/?q=downloads/imageJ
+  repository: https://git.mpi-cbg.de/mosaic/software/bio-imaging/MosaicSuite
+  license: GPL-3.0
+  groups: [ "SCSB" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: Scenery
+  description: Platform-portable VR/AR visualization and driver library including distributed rendering of very large datasets and user-interaction modalities.
+  website: https://sbalzarini-lab.org/?q=downloads/scenery
+  repository: https://github.com/scenerygraphics/scenery
+  license: LGPL-3
+  groups: [ "SCSB" ]
+  founder: true
+  maintainer: false
+  contributor: true
+  involved: true
+- name: libAPR, pyapr, apr-napari
+  description: C++ core library for the adaptive particle representation (APR) of images, including its Python package (pyapr) and plugin for the image viewer "napari" (napari-apr) as well as an APR-native volume renderer and a Big Data Viewer for distributed and tiled volume images.
+  website: https://github.com/AdaptiveParticles
+  repository: https://github.com/AdaptiveParticles
+  license: Apache-2.0
+  groups: [ "SCSB" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: Nemo
+  website: https://github.com/knowsys/nemo
+  repository: https://github.com/knowsys/nemo
+  license: Apache-2.0 and MIT
+  groups: [ "KBS" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: Semantic MediaWiki
+  website: https://www.semantic-mediawiki.org
+  repository: https://github.com/SemanticMediaWiki/SemanticMediaWiki/
+  license: GPL
+  groups: [ "KBS" ]
+  founder: true
+  maintainer: true
+  contributor: false
+  involved: false
+- name: Wikidata Toolkit
+  website: https://github.com/Wikidata/Wikidata-Toolkit
+  repository: https://github.com/Wikidata/Wikidata-Toolkit
+  license: Apache-2.0
+  groups: [ "KBS" ]
+  founder: true
+  maintainer: true
+  contributor: false
+  involved: false
+- name: Rulewerk
+  website: https://github.com/knowsys/rulewerk
+  repository: https://github.com/knowsys/rulewerk
+  license: Apache-2.0
+  groups: [ "KBS" ]
+  founder: true
+  maintainer: true
+  contributor: false
+  involved: true
+- name: VLog
+  website: https://github.com/karmaresearch/vlog
+  repository: https://github.com/karmaresearch/vlog
+  license: Apache-2.0
+  groups: [ "KBS" ]
+  founder: false
+  maintainer: false
+  contributor: true
+  involved: false
+- name: SQID
+  website: https://sqid.toolforge.org/
+  repository: https://github.com/Wikidata/SQID/
+  license: Apache-2.0
+  groups: [ "KBS" ]
+  founder: true
+  maintainer: true
+  contributor: false
+  involved: true
+- name: conexp-clj
+  website: https://github.com/tomhanika/conexp-clj
+  repository: https://github.com/tomhanika/conexp-clj
+  license: EPL-1.0
+  groups: [ "KBS" ]
+  founder: false
+  maintainer: false
+  contributor: true
+  involved: true
+- name: AN.ON
+  website: https://anon.inf.tu-dresden.de
+  repository: https://dud-scm.inf.tu-dresden.de/an.on
+  license: BSD-style
+  groups: [ "PSEC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: dudle
+  website: https://dud-poll.inf.tu-dresden.de/
+  repository: https://github.com/kellerben/dudle/
+  license: AGPL-3.0
+  groups: [ "PSEC" ]
+  founder: false
+  maintainer: false
+  contributor: true
+  involved: true
+- name: Veins
+  website: https://veins.car2x.org/
+  repository: https://github.com/sommer/veins
+  license: GPL-2.0-or-later and more
+  groups: [ "NSM" ]
+  founder: true
+  maintainer: false
+  contributor: false
+  involved: true
+- name: Eclipse SUMO
+  website: https://eclipse.dev/sumo/
+  repository: https://github.com/eclipse-sumo/sumo
+  license: EPL-2.0 and more
+  groups: [ "NSM" ]
+  founder: false
+  maintainer: false
+  contributor: true
+  involved: true
+- name: OMNeT++ INET Framework
+  website: https://inet.omnetpp.org/
+  repository: https://github.com/inet-framework/inet
+  license: LGPL-3.0-or-later and others
+  groups: [ "NSM" ]
+  founder: false
+  maintainer: false
+  contributor: true
+  involved: true
+- name: ACM LaTeX template
+  website: https://ctan.org/pkg/acmart
+  repository: https://github.com/borisveytsman/acmart
+  license: LPPL-1.3c
+  groups: [ "NSM" ]
+  founder: false
+  maintainer: false
+  contributor: true
+  involved: True
+- name: OMNeT++
+  website: https://omnetpp.org/
+  repository: https://github.com/omnetpp/omnetpp
+  license: custom
+  groups: [ "NSM" ]
+  founder: false
+  maintainer: false
+  contributor: true
+  involved: true
+- name: condrust
+  website: https://github.com/ohua-lang/condrust
+  repository: https://github.com/ohua-lang/condrust
+  license: ISC
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: base2-mlir
+  website: https://github.com/KFAFSP/base2-mlir
+  repository: https://github.com/KFAFSP/base2-mlir
+  license: ISC
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: dfg-mlir
+  website: https://github.com/Feliix42/dfg-mlir
+  repository: https://github.com/Feliix42/dfg-mlir
+  license: ISC
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: Cinnamon
+  website: https://github.com/tud-ccc/Cinnamon
+  license: MIT
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: Sigi-mlir
+  website: https://github.com/tud-ccc/kp-mlir-sigi-mlir
+  license: MIT
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: Sigi-frontend
+  website: https://github.com/tud-ccc/kp-mlir-sigi-frontend
+  license: Apache-2.0
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: Mocasin
+  website: https://github.com/tud-ccc/mocasin
+  repository: https://github.com/tud-ccc/mocasin
+  license: ISC
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: Lingua Franca
+  website: https://github.com/lf-lang/lingua-franca
+  repository: https://github.com/lf-lang/lingua-franca
+  license: BSD-2-Clause
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: reactor-cpp
+  website: https://github.com/lf-lang/reactor-cpp
+  repository: https://github.com/lf-lang/reactor-cpp
+  license: ISC
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: gem5
+  website: https://www.gem5.org/
+  repository: https://www.gem5.org/
+  license: BSD-3-Clause
+  groups: [ "CC" ]
+  founder: false
+  maintainer: false
+  contributor: true
+  involved: false
+- name: Tetris
+  website: https://github.com/l3nkz/tetris
+  repository: https://github.com/l3nkz/tetris
+  license: GPL-3.0
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: false
+- name: RTSim
+  website: https://github.com/tud-ccc/RTSim
+  repository: https://github.com/tud-ccc/RTSim
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: RTM Compiler
+  website: https://github.com/tud-ccc/rtm-compiler
+  repository: https://github.com/tud-ccc/rtm-compiler
+  license: BSD-2-Clause
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: false
+- name: OpenPME
+  website: https://github.com/Nesrinekh/OpenPME
+  repository: https://github.com/Nesrinekh/OpenPME
+  license: ISC
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: Object Teams
+  website: https://www.eclipse.org/objectteams/
+  repository: https://gitlab.eclipse.org/eclipse/objectteams/objectteams
+  license: EPL-2.0
+  groups: [ "CC" ]
+  founder: false
+  maintainer: false
+  contributor: true
+  involved: false
+- name: Object Teams InvokeDynamic
+  website: https://github.com/lschuetze/objectteams-poly
+  repository: https://github.com/lschuetze/objectteams-poly
+  license: EPL-2.0
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: false
+- name: GraalVM with Role Support
+  website: https://github.com/lschuetze/graal
+  repository: https://github.com/lschuetze/graal
+  license: GPL-2.0 with the “Classpath” Exception
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: false
+- name: messner
+  website: https://github.com/everest-h2020/messner
+  repository: https://github.com/everest-h2020/messner
+  license: ISC
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: Mobile trace generator
+  website: https://github.com/tud-ccc/mobile-traces
+  repository: https://github.com/tud-ccc/mobile-traces
+  license: ISC
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: false
+- name: compy-learn
+  website: https://github.com/tud-ccc/compy-learn
+  repository: https://github.com/tud-ccc/compy-learn
+  license: Apache-2.0
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: dear
+  website: https://github.com/tud-ccc/dear
+  repository: https://github.com/tud-ccc/dear
+  license: ISC
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: false
+- name: polygym
+  website: https://github.com/PolyGym
+  repository: https://github.com/PolyGym
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: false
+- name: mpsym
+  website: https://github.com/tud-ccc/mpsym
+  repository: https://github.com/tud-ccc/mpsym
+  license: MIT
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: false
+- name: learning-compiler-graphs
+  website: https://github.com/tud-ccc/learning-compiler-graphs
+  repository: https://github.com/tud-ccc/learning-compiler-graphs
+  groups: [ "CC" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: A 4-Approximation Algorithm for Min Max Correlation Clustering
+  website: https://github.com/JannikIrmai/min-max-correlation-clustering
+  repository: https://github.com/JannikIrmai/min-max-correlation-clustering
+  groups: [ "MLCV" ]
+  founder: true
+  maintainer: false
+  contributor: false
+  involved: True
+- name: Partial Optimality in Cubic Correlation Clustering
+  website: https://github.com/dsteindd/partial-optimality-in-cubic-correlation-clustering
+  repository: https://github.com/dsteindd/partial-optimality-in-cubic-correlation-clustering
+  groups: [ "MLCV" ]
+  founder: true
+  maintainer: false
+  contributor: false
+  involved: True
+- name: OpenGM
+  website: https://github.com/opengm/opengm
+  repository: https://github.com/opengm/opengm
+  groups: [ "MLCV" ]
+  founder: true
+  maintainer: false
+  contributor: false
+  involved: True
+- name: Marray
+  description: Now largely adopted into ISO C++ as std::span
+  website: https://github.com/bjoern-andres/marray
+  repository: https://github.com/bjoern-andres/marray
+  groups: [ "MLCV" ]
+  founder: true
+  maintainer: false
+  contributor: false
+  involved: True
+- name: Graphs and graph algorithms in C++
+  description: This project sits in a small niche. For most applications, BGL, Blitz or Lemon are a better choice.
+  website: https://github.com/bjoern-andres/graph
+  repository: https://github.com/bjoern-andres/graph
+  license: MIT
+  groups: [ "MLCV" ]
+  founder: true
+  maintainer: false
+  contributor: false
+  involved: True
+- name: FIRESTARTER
+  website: https://github.com/tud-zih-energy/FIRESTARTER
+  repository: https://github.com/tud-zih-energy/FIRESTARTER
+  license: GPL-3.0
+  groups: [ "CA" ]
+  founder: false
+  maintainer: false
+  contributor: true
+  involved: true
+- name: BenchIT
+  website: https://gitlab.hrz.tu-chemnitz.de/tud-zih-energy/benchit
+  repository: https://gitlab.hrz.tu-chemnitz.de/tud-zih-energy/benchit
+  license: BSD'ish
+  groups: [ "CA" ]
+  founder: false
+  maintainer: true
+  contributor: true
+  involved: true
+- name: Score-P libsensors Plugin Counter
+  description: There are various plugins available, which I maintain and contribute to this is one of them.
+  website: https://github.com/score-p/scorep_plugin_libsensors
+  repository: https://github.com/score-p/scorep_plugin_libsensors
+  license: BSD 3-Clause "New" or "Revised" License
+  groups: [ "CA" ]
+  founder: false
+  maintainer: true
+  contributor: true
+  involved: true
+- name: Linux kernel
+  website: https://github.com/torvalds/linux
+  repository: https://github.com/torvalds/linux
+  license: GPL-2.0
+  groups: [ "CA" ]
+  founder: false
+  maintainer: false
+  contributor: true
+  involved: True
+- name: X86-Energy Libraries
+  website: https://github.com/tud-zih-energy/x86_energy
+  repository: https://github.com/tud-zih-energy/x86_energy
+  license: LGPL-2.1
+  groups: [ "CA" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: Score-P autotools
+  description: This contains multiple packages. My latest contributions were for the NEC compiler suite
+  website: https://gitlab.jsc.fz-juelich.de/perftools/utils/
+  repository: https://perftools.pages.jsc.fz-juelich.de/utils/perftools-dev/perftools-dev-latest.tar.gz
+  license: GPL-3.0+
+  groups: [ "CA" ]
+  founder: false
+  maintainer: false
+  contributor: true
+  involved: True
+- name: Score-P
+  website: https://gitlab.com/score-p/scorep
+  repository: https://gitlab.com/score-p/scorep
+  license: BSD-style
+  groups: [ "CA" ]
+  founder: false
+  maintainer: false
+  contributor: true
+  involved: true
+- name: ViewR
+  description: We maintain a internal repo that is under active development, preparing for a large update of the public facing repo.
+  website: https://github.com/ixlabTUD/ViewR
+  repository: https://github.com/ixlabTUD/ViewR
+  license: Apache-2.0
+  groups: [ "IM" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: FAIL*
+  website: https://github.com/danceos/fail
+  repository: https://github.com/danceos/fail
+  license: GPL-3.0
+  groups: [ "OS" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: CP2K
+  website: https://cp2k.org
+  repository: https://github.com/cp2k
+  license: GPL-2.0
+  groups: [ "CSS" ]
+  founder: false
+  maintainer: true
+  contributor: true
+  involved: true
+- name: RTRlib
+  website: https://rtrlib.realmv6.org/
+  repository: https://github.com/rtrlib
+  license: MIT
+  groups: [ "NETD" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: AMCS
+  website: https://amcs.website/
+  groups: [ "NETD" ]
+  founder: true
+  maintainer: false
+  contributor: false
+  involved: true
+- name: PrioBike
+  description: App and services of a traffic light assistance system for cyclists
+  website: https://github.com/priobike/
+  repository: https://github.com/priobike/
+  license: MIT
+  groups: [ "NETD" ]
+  founder: true
+  maintainer: false
+  contributor: true
+  involved: true
+- name: GNU Taler
+  website: https://taler.net/de/index.html
+  repository: https://git.taler.net/
+  license: GPL
+  groups: [ "NETD" ]
+  founder: false
+  maintainer: false
+  contributor: true
+  involved: true
+- name: ODNS Measurement Tools
+  website: https://github.com/netd-tud/odns-measurement-tools
+  repository: https://github.com/netd-tud/odns-measurement-tools
+  license: BSD-2-Clause
+  groups: [ "NETD" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true

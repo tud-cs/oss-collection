@@ -1,0 +1,38 @@
+- name: Chair of Distributed and Networked Systems
+  handle: NETD
+  website: https://netd.cs.tu-dresden.de
+- name: Chair of Machine Learning for Spatial Understanding
+  handle: MLSU
+  website: https://fis.tu-dresden.de/portal/en/organisations/chair-of-machine-learning-for-spatial-understanding-scadsai-dresdenleipzig(69b2a2a2-aede-411d-a762-df4bb49490eb).html
+- name: Chair of Human-Computer-Interaction
+  handle: HCI
+  website: https://tu-dresden.de/ing/informatik/ai/mci?set_language=en
+- name: Chair of Scientific Computing for Systems Biology
+  handle: SCSB
+  website: https://tu-dresden.de/ing/informatik/ki/wr?set_language=en
+- name: Chair of Knowledge-Based Systems
+  handle: KBS
+  website: https://iccl.inf.tu-dresden.de/web/Wissensbasierte_Systeme/en
+- name: Chair of Privacy and Security
+  handle: PSEC
+  website: https://tu-dresden.de/ing/informatik/sya/ps?set_language=en
+- name: Chair of Networked Systems Modeling
+  handle: NSM
+  website: https://www.cms-labs.org/
+- name: Chair for Compiler Construction
+  handle: CC
+  website: https://www.cfaed.tu-dresden.de/ccc-about
+- name: Chair of Machine Learning for Computer Vision
+  handle: MLCV
+  website: https://mlcv.inf.tu-dresden.de/index-de.html
+- name: Chair of Computer Architecture
+  handle: CA
+  website: https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en
+- name: Junior Professorship in Immersive Media
+  handle: IM
+  website: https://tu-dresden.de/ing/informatik/smt/im?set_language=en
+- name: Chair of Operating Systems
+  handle: OS
+  website: https://tu-dresden.de/ing/informatik/sya/professur-fuer-betriebssysteme?set_language=en
+- name: Computational Systems Science
+  handle: CSS

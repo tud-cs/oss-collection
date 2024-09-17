@@ -1,7 +1,7 @@
 import yaml 
 from lxml import etree, html
 
-def generate_html_from_yaml(yaml_file, html_file, output_file):
+def generate_html_from_yaml(oss_projects_file, cs_groups_file, html_file, output_file):
     # Parse the existing HTML file
     with open(html_file, "r", encoding="utf-8") as f:
         tree = html.parse(f)
@@ -10,18 +10,22 @@ def generate_html_from_yaml(yaml_file, html_file, output_file):
     # Find the <div> element with id "project-list"
     project_list = root.find(".//div[@id='project-list']")
     
-    # Parse the YAML data
-    with open(yaml_file, "r") as f:
+    # Parse the YAML data of projects
+    with open(oss_projects_file, "r") as f:
         projects = yaml.load(f, Loader=yaml.Loader)
 
+    # Parse the YAML data of cs groups
+    with open(cs_groups_file, "r") as f:
+        cs_groups = yaml.load(f, Loader=yaml.Loader)
+
     licences = set()
-    chairs = set()
+    groups = set()
 
     # sort projects by involvement
     projects_with_involvement = []
     projects_without_involvement = []
     for project in projects:
-        involved = project.get("Are you still involved?", "")
+        involved = project.get("involved", "")
         # Assume N/A is involved
         if involved == False:
             projects_without_involvement.append(project)
@@ -29,8 +33,8 @@ def generate_html_from_yaml(yaml_file, html_file, output_file):
             projects_with_involvement.append(project)
 
     # Sort projects by name
-    projects_with_involvement = sorted(projects_with_involvement, key=lambda x: x.get("Name of the open source project").lower())
-    projects_without_involvement = sorted(projects_without_involvement, key=lambda x: x.get("Name of the open source project").lower())
+    projects_with_involvement = sorted(projects_with_involvement, key=lambda x: x.get("name").lower())
+    projects_without_involvement = sorted(projects_without_involvement, key=lambda x: x.get("name").lower())
 
     projects = projects_with_involvement + projects_without_involvement
 
@@ -43,7 +47,7 @@ def generate_html_from_yaml(yaml_file, html_file, output_file):
             no_longer_involved.text = "Projects where the research group is no longer involved"
             project_list.append(no_longer_involved)
 
-        project_name = project.get("Name of the open source project")
+        project_name = project.get("name")
         if not project_name:
             continue
         
@@ -53,44 +57,53 @@ def generate_html_from_yaml(yaml_file, html_file, output_file):
         project_main = etree.SubElement(project_item, "div", attrib={"class": "project-main"})
         project_main_left = etree.SubElement(project_main, "div", attrib={"class": "project-main-left"})
         
-        # Chair information
-        chair_name = project.get("To which Chair do you belong to at the Faculty of Computer Science?")
-        if chair_name:
-            project_chair = etree.SubElement(project_main_left, "div", attrib={"class": "project-chair"})
-            chairs.add(chair_name)
-            chair_link = project.get("URL to the chair")
-            
-            chair = etree.SubElement(project_chair, "a", attrib={"class": "chair"})
-            chair_name_span = etree.SubElement(chair, "span", id=f"chair-{i}")
-            chair_name_span.text = chair_name
+        involved = project.get("involved", "")
+        if involved == False:
+            not_involved = etree.SubElement(project_main_left, "span", attrib={"class": "not-involved"})
+            not_involved.text = "no longer involved"
+        
+        # CS group information
+        cs_group_handles = project.get("groups")
+        if cs_group_handles:
+            for group_handle in cs_group_handles:
+                group = None
+                for cs_group in cs_groups:
+                    if cs_group.get("handle") == group_handle:
+                        group = cs_group
+                        break
 
-            if chair_link:
-                chair.set("href", chair_link)
-                chair.set("target", "_blank")
-                chair.set("title", chair_link)
-                
-                etree.SubElement(chair, "img", attrib={"class": "chair-link-img"}, src="images/external-link-svgrepo-com-grey.svg", style="height: 16px")
-        
-            involved = project.get("Are you still involved?", "")
-            if involved == False:
-                not_involved = etree.SubElement(project_chair, "span", attrib={"class": "not-involved"})
-                not_involved.text = "- no longer involved"
-        
+                if group:
+                    project_group = etree.SubElement(project_main_left, "div", attrib={"class": "project-chair"})
+                    group_name = group.get("name")
+                    groups.add(group_name)
+                    group_link = group.get("website")
+                    
+                    chair = etree.SubElement(project_group, "a", attrib={"class": "chair"})
+                    chair_name_span = etree.SubElement(chair, "span", attrib={"class": "chair-name"})
+                    chair_name_span.text = group_name
+
+                    if group_link:
+                        chair.set("href", group_link)
+                        chair.set("target", "_blank")
+                        chair.set("title", group_link)
+                        
+                        etree.SubElement(chair, "img", attrib={"class": "chair-link-img"}, src="images/external-link-svgrepo-com-grey.svg", style="height: 16px")    
+
         # Project name and more info
         project_row = etree.SubElement(project_main_left, "div", attrib={"class": "project-row", "onclick": f"popUp({i})"})
         project_name_div = etree.SubElement(project_row, "div", attrib={"class": "project-name"}, id=f"project-name-{i}")
         project_name_div.text = project_name
         
-        project_more_info_text = project.get("Anything else you want to let us know?")
+        project_more_info_text = project.get("description")
         if project_more_info_text:      
             project_more_info_popup = etree.SubElement(project_main_left, "div", attrib={"class": "project-more-info-popup"}, id=f"more-info-{i}", title = project_more_info_text)
             project_more_info_popup.text = project_more_info_text
         
         # Project tags
         project_tags = etree.SubElement(project_main_left, "div", attrib={"class": "project-tags"})
-        roles = {"Founder": "Your role in the open source project? [Founder]", 
-                 "Maintainer": "Your role in the open source project? [Maintainer]", 
-                 "Contributor": "Your role in the open source project? [Contributor]"}
+        roles = {"Founder": "founder", 
+                 "Maintainer": "maintainer", 
+                 "Contributor": "contributor"}
         
         for role, key in roles.items():
             if project.get(key) == True: 
@@ -100,7 +113,7 @@ def generate_html_from_yaml(yaml_file, html_file, output_file):
         project_main.append(project_main_left)
 
         # Project image
-        img_src = f"images/projects/{project['image']}" if project.get("image") else ""
+        img_src = f"images/projects/{project['logo']}" if project.get("logo") else ""
         if img_src:
             img = etree.SubElement(project_main, "img", src=img_src, attrib={"class": "project-logo"})
 
@@ -110,14 +123,14 @@ def generate_html_from_yaml(yaml_file, html_file, output_file):
         link_footer = etree.SubElement(project_item, "div", attrib={"class": "link-footer"})
         link_footer_left = etree.SubElement(link_footer, "div", attrib={"class": "link-footer-left"})
         
-        project_site = project.get("URL of the open source project")
+        project_site = project.get("website")
         if project_site:
             link_item = etree.SubElement(link_footer_left, "a", attrib={"class": "link-item"}, title=project_site, href=project_site, target="_blank")
             link_item_text = etree.SubElement(link_item, "span", attrib={"class": "link-item-text"})
             link_item_text.text = "Project Site"
             link_item_icon = etree.SubElement(link_item, "img", src="images/external-link-svgrepo-com-white.svg", style="height: 20px")
         
-        repository = project.get("URL of the public repository")
+        repository = project.get("repository")
         if repository:
             link_item = etree.SubElement(link_footer_left, "a", attrib={"class": "link-item"}, title=repository, href=repository, target="_blank")
             link_item_text = etree.SubElement(link_item, "span", attrib={"class": "link-item-text"})
@@ -125,7 +138,7 @@ def generate_html_from_yaml(yaml_file, html_file, output_file):
             link_item_icon = etree.SubElement(link_item, "img", src="images/external-link-svgrepo-com-white.svg", style="height: 20px")
         
         # License
-        license = project.get("License under which the open source project is available")
+        license = project.get("license")
         if license:
             licences.add(license)
             license_item = etree.SubElement(link_footer, "div", attrib={"class": "license-item"}, title=license, id=f"license-{i}")
@@ -136,7 +149,7 @@ def generate_html_from_yaml(yaml_file, html_file, output_file):
     # Add chair and license filters
     chair_filter = root.find(".//select[@id='chair']")
     if chair_filter is not None:
-        for chair in sorted(chairs):
+        for chair in sorted(groups):
             option = etree.SubElement(chair_filter, "option", value=chair)
             option.text = chair
 
@@ -152,4 +165,4 @@ def generate_html_from_yaml(yaml_file, html_file, output_file):
         f.write("<!DOCTYPE html>\n")
         f.write(etree.tostring(root, pretty_print=True, encoding="unicode", method='html'))
 
-generate_html_from_yaml("projects.yaml", "website/base.html", "website/index.html")
+generate_html_from_yaml("oss-projects.yaml", "cs-groups.yaml", "website/base.html", "website/index.html")
