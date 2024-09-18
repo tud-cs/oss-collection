@@ -610,3 +610,37 @@
   website: https://github.com/lasr-lab/opentouch-interface
   repository: https://github.com/lasr-lab/opentouch-interface
   license: MIT
+- name: RAMpage online memory tester
+  repository: https://github.com/schirmeier/rampage
+  license: GPL-2.0
+  groups: [ "OS" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: L4Re Operating System Framework
+  website: https://l4re.org
+  repository: https://github.com/kernkonzept/manifest
+  license: GPL-2.0
+  groups: [ "OS" ]
+  founder: true
+  maintainer: false
+  contributor: true
+  involved: true
+- name: "M³: microkernel-based system for heterogeneous manycores"
+  repository: https://github.com/Barkhausen-Institut/M3
+  license: GPL-2.0
+  groups: [ "OS" ]
+  founder: true
+  maintainer: false
+  contributor: true
+  involved: true
+- name: NOVA Microhypervisor
+  website: https://hypervisor.org
+  repository: https://github.com/udosteinberg/NOVA
+  license: GPL-2.0
+  groups: [ "OS" ]
+  founder: true
+  maintainer: false
+  contributor: false
+  involved: true
