@@ -301,7 +301,7 @@
   website: https://github.com/l3nkz/tetris
   repository: https://github.com/l3nkz/tetris
   license: GPL-3.0
-  groups: [ "CC" ]
+  groups: [ "OS", "CC" ]
   founder: true
   maintainer: true
   contributor: true
@@ -495,7 +495,7 @@
   website: https://github.com/torvalds/linux
   repository: https://github.com/torvalds/linux
   license: GPL-2.0
-  groups: [ "CA" ]
+  groups: [ "CA", "OS" ]
   founder: false
   maintainer: false
   contributor: true
