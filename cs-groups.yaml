@@ -36,3 +36,6 @@
   website: https://tu-dresden.de/ing/informatik/sya/professur-fuer-betriebssysteme?set_language=en
 - name: Computational Systems Science
   handle: CSS
+- name: Chair of Explainable Artificial Intelligence
+  handle: XAI
+  website: https://lasr.org/
