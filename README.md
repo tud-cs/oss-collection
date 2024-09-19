@@ -550,6 +550,17 @@ License: ISC
 [Code](https://github.com/Nesrinekh/OpenPME) [Project Site](https://github.com/Nesrinekh/OpenPME)
 
 ---
+### OpenTouch Interface
+
+Research Group: [Chair of Explainable Artificial Intelligence](https://lasr.org/) (Founder) (Maintainer) (Contributor) 
+
+More information: The OpenTouch Interface is a Python package designed to provide a unified interface for various touch sensors. It simplifies the process of interacting with touch sensors by providing a consistent API regardless of the specific sensor being used.
+
+License: MIT
+
+[Code](https://github.com/lasr-lab/opentouch-interface) [Project Site](https://github.com/lasr-lab/opentouch-interface)
+
+---
 ### Partial Optimality in Cubic Correlation Clustering
 
 Research Group: [Chair of Machine Learning for Computer Vision](https://mlcv.inf.tu-dresden.de/index-de.html) (Founder) 
