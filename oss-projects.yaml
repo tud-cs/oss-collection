@@ -600,3 +600,13 @@
   maintainer: true
   contributor: true
   involved: true
+- name: OpenTouch Interface
+  groups: [ "XAI" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+  description: The OpenTouch Interface is a Python package designed to provide a unified interface for various touch sensors. It simplifies the process of interacting with touch sensors by providing a consistent API regardless of the specific sensor being used.
+  website: https://github.com/lasr-lab/opentouch-interface
+  repository: https://github.com/lasr-lab/opentouch-interface
+  license: MIT
