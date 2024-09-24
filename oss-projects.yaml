@@ -3,9 +3,6 @@
   repository: https://github.com/RIOT-OS/RIOT
   license: LGPL
   groups: [ "NETD" ]
-  founder: true
-  maintainer: true
-  contributor: true
   involved: true
   logo: RIOT-logo.png
 - name: CSBDeep
