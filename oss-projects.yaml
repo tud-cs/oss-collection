@@ -1,4 +1,4 @@
-- name: RIOT
+- name: RIOT-test
   website: https://riot-os.org
   repository: https://github.com/RIOT-OS/RIOT
   license: LGPL
