@@ -341,6 +341,17 @@ License: MIT
 [Code](https://github.com/bjoern-andres/graph) [Project Site](https://github.com/bjoern-andres/graph)
 
 ---
+### L4Re Operating System Framework
+
+Research Group: [Chair of Operating Systems](https://tu-dresden.de/ing/informatik/sya/professur-fuer-betriebssysteme?set_language=en) (Founder) (Contributor) 
+
+More information: N/A
+
+License: GPL-2.0
+
+[Code](https://github.com/kernkonzept/manifest) [Project Site](https://l4re.org)
+
+---
 ### learning-compiler-graphs
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
@@ -376,7 +387,7 @@ License: BSD-2-Clause
 ---
 ### Linux kernel
 
-Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Contributor) 
+Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) [Chair of Operating Systems](https://tu-dresden.de/ing/informatik/sya/professur-fuer-betriebssysteme?set_language=en) (Contributor) 
 
 More information: N/A
 
@@ -451,6 +462,17 @@ License: MIT
 [Code](https://github.com/tud-ccc/mpsym) [Project Site](https://github.com/tud-ccc/mpsym)
 
 ---
+### M³: microkernel-based system for heterogeneous manycores
+
+Research Group: [Chair of Operating Systems](https://tu-dresden.de/ing/informatik/sya/professur-fuer-betriebssysteme?set_language=en) (Founder) (Contributor) 
+
+More information: N/A
+
+License: GPL-2.0
+
+[Code](https://github.com/Barkhausen-Institut/M3) 
+
+---
 ### Nemo
 
 Research Group: [Chair of Knowledge-Based Systems](https://iccl.inf.tu-dresden.de/web/Wissensbasierte_Systeme/en) (Founder) (Maintainer) (Contributor) 
@@ -460,6 +482,17 @@ More information: N/A
 License: Apache-2.0 and MIT
 
 [Code](https://github.com/knowsys/nemo) [Project Site](https://github.com/knowsys/nemo)
+
+---
+### NOVA Microhypervisor
+
+Research Group: [Chair of Operating Systems](https://tu-dresden.de/ing/informatik/sya/professur-fuer-betriebssysteme?set_language=en) (Founder) 
+
+More information: N/A
+
+License: GPL-2.0
+
+[Code](https://github.com/udosteinberg/NOVA) [Project Site](https://hypervisor.org)
 
 ---
 ### Object Teams
@@ -592,6 +625,17 @@ More information: App and services of a traffic light assistance system for cycl
 License: MIT
 
 [Code](https://github.com/priobike/) [Project Site](https://github.com/priobike/)
+
+---
+### RAMpage online memory tester
+
+Research Group: [Chair of Operating Systems](https://tu-dresden.de/ing/informatik/sya/professur-fuer-betriebssysteme?set_language=en) (Founder) (Maintainer) (Contributor) 
+
+More information: N/A
+
+License: GPL-2.0
+
+[Code](https://github.com/schirmeier/rampage) 
 
 ---
 ### reactor-cpp
@@ -763,7 +807,7 @@ License: BSD-3-Clause
 ---
 ### Tetris
 
-Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
+Research Group: [Chair of Operating Systems](https://tu-dresden.de/ing/informatik/sya/professur-fuer-betriebssysteme?set_language=en) [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) - no longer involved
 
 More information: N/A
 
