@@ -1,0 +1,59 @@
+name: Receive PR
+
+# read-only repo token
+# no access to secrets
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Check keys of the projects.yaml file
+        run: |
+          python3 -m venv .venv
+          source .venv/bin/activate
+          pip3 install PyYAML
+          python3 check_keys.py > summary.txt
+
+      - name: Check status of key check (failed)
+        if: failure()
+        run: |
+          echo 1 > check_keys_exit_code.txt
+
+      - name: Check status of key check (success)
+        if: success()
+        run: |
+          echo 0 > check_keys_exit_code.txt
+
+      - name: Generate HTML site and README.md
+        run: |
+          python3 -m venv .venv
+          source .venv/bin/activate
+          pip3 install lxml
+          python3 init_site.py
+          rm website/base.html
+          python3 init_readme.py
+
+      - name: Save PR number
+        if: always()
+        run: |
+          mkdir -p ./pr
+          echo ${{ github.event.number }} > ./pr/NR
+
+      - name: Package artifacts
+        if: always()
+        run: tar -czf package.tar.gz ./pr/NR ./check_keys_exit_code.txt ./summary.txt ./website ./README.md
+
+      - name: Upload package as artifact 
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: package
+          path: package.tar.gz
+          retention-days: 14
+          overwrite: true
