@@ -396,6 +396,17 @@ License: GPL-2.0
 [Code](https://github.com/torvalds/linux) [Project Site](https://github.com/torvalds/linux)
 
 ---
+### LPWC Linked Paper With Code
+
+Research Group: [Chair of Scalable Software Architectures for Data Analytics](https://scads.ai/about-us/ai-professorships/michael-faerber/) (Founder) (Maintainer) (Contributor) 
+
+More information: N/A
+
+License: MIT
+
+[Code](https://github.com/metaphacts/linkedpaperswithcode) [Project Site](https://linkedpaperswithcode.com/)
+
+---
 ### Marray
 
 Research Group: [Chair of Machine Learning for Computer Vision](https://mlcv.inf.tu-dresden.de/index-de.html) (Founder) 
@@ -761,6 +772,17 @@ License: GPL
 [Code](https://github.com/SemanticMediaWiki/SemanticMediaWiki/) [Project Site](https://www.semantic-mediawiki.org)
 
 ---
+### SemOpenAlex
+
+Research Group: [Chair of Scalable Software Architectures for Data Analytics](https://scads.ai/about-us/ai-professorships/michael-faerber/) (Founder) (Maintainer) (Contributor) 
+
+More information: N/A
+
+License: MIT
+
+[Code](https://github.com/metaphacts/semopenalex) [Project Site](https://semopenalex.org)
+
+---
 ### Sigi-frontend
 
 Research Group: [Chair for Compiler Construction](https://www.cfaed.tu-dresden.de/ccc-about) (Founder) (Maintainer) (Contributor) 
@@ -814,6 +836,17 @@ More information: N/A
 License: GPL-3.0
 
 [Code](https://github.com/l3nkz/tetris) [Project Site](https://github.com/l3nkz/tetris)
+
+---
+### unarXive
+
+Research Group: [Chair of Scalable Software Architectures for Data Analytics](https://scads.ai/about-us/ai-professorships/michael-faerber/) (Founder) (Maintainer) (Contributor) 
+
+More information: N/A
+
+License: MIT
+
+[Code](https://github.com/IllDepence/unarXive) [Project Site](https://github.com/IllDepence/unarXive)
 
 ---
 ### Veins
