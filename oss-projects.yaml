@@ -644,3 +644,30 @@
   maintainer: false
   contributor: false
   involved: true
+- name: SemOpenAlex
+  website: https://semopenalex.org
+  repository: https://github.com/metaphacts/semopenalex
+  license: MIT
+  groups: [ "SSADA" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: LPWC Linked Paper With Code
+  website: https://linkedpaperswithcode.com/
+  repository: https://github.com/metaphacts/linkedpaperswithcode
+  license: MIT
+  groups: [ "SSADA" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: unarXive
+  website: https://github.com/IllDepence/unarXive
+  repository: https://github.com/IllDepence/unarXive
+  license: MIT
+  groups: [ "SSADA" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
