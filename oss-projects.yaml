@@ -801,3 +801,23 @@
   maintainer: false
   contributor: true
   involved: false
+- name: Interactive Optimal Repairs
+  website: https://github.com/francesco-kriegel/interactive-optimal-repairs
+  repository: https://github.com/francesco-kriegel/interactive-optimal-repairs
+  description: A plugin for the ontology editor Protégé for repairing ABox assertions in the presence of an EL TBox
+  license: GPL-3.0
+  groups: [ "LAT" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: Efficient Axiomatization of OWL 2 EL Ontologies from Data by means of Formal Concept Analysis
+  website: https://github.com/francesco-kriegel/efficient-axiomatization-of-owl2el-ontologies-from-data
+  repository: https://github.com/francesco-kriegel/efficient-axiomatization-of-owl2el-ontologies-from-data
+  description: A Scala-based tool for axiomatizing OWL 2 EL ontologies from example data, using techniques from Formal Concept Analysis
+  license: GPL-3.0
+  groups: [ "LAT" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
