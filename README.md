@@ -154,6 +154,17 @@ License: BSD'ish
 [Code](https://gitlab.hrz.tu-chemnitz.de/tud-zih-energy/benchit) [Project Site](https://gitlab.hrz.tu-chemnitz.de/tud-zih-energy/benchit)
 
 ---
+### BORN
+
+Research Group: [Chair of Automata Theory](https://tu-dresden.de/ing/informatik/thi/lat) (Founder) (Contributor) - no longer involved
+
+More information: A reasoner for the Bayesian description logic BEL, including a plugin for the ontology editor Protégé
+
+License: Apache-2.0
+
+[Code](https://github.com/de-tu-dresden-inf-lat/born) [Project Site](https://github.com/de-tu-dresden-inf-lat/born)
+
+---
 ### BrailleIO
 
 Research Group: [Chair of Human-Computer-Interaction](https://tu-dresden.de/ing/informatik/ai/mci?set_language=en) (Maintainer) - no longer involved
@@ -163,6 +174,17 @@ More information: N/A
 License: BSD-2-Clause
 
 [Code](https://github.com/TUD-INF-IAI-MCI/BrailleIO) [Project Site](no URL, publication Bornschein, J. (2014, November). BrailleIO–a tactile display abstraction framework. In The Proceedings of Workshop Tactile/Haptic User Interfaces for Tabletops and Tablets (TacTT 2014). S (pp. 36-41).)
+
+---
+### CEL
+
+Research Group: [Chair of Automata Theory](https://tu-dresden.de/ing/informatik/thi/lat) (Founder) (Contributor) - no longer involved
+
+More information: A reasoner for the description logic EL that also supports incremental classification, modularization and axiom pinpointing, and is also available as a plugin for the ontology editor Protégé
+
+License: Apache-2.0 and LGPL-3.0
+
+[Code](https://github.com/de-tu-dresden-inf-lat/cel) [Project Site](https://github.com/de-tu-dresden-inf-lat/cel)
 
 ---
 ### Cinnamon
@@ -185,6 +207,17 @@ More information: N/A
 License: Apache-2.0
 
 [Code](https://github.com/tud-ccc/compy-learn) [Project Site](https://github.com/tud-ccc/compy-learn)
+
+---
+### Concept Explorer FX
+
+Research Group: [Chair of Automata Theory](https://tu-dresden.de/ing/informatik/thi/lat) (Maintainer) (Contributor) - no longer involved
+
+More information: A tool to visualize and interact with formal contexts and their concept lattices
+
+License: GPL-3.0
+
+[Code](https://github.com/francesco-kriegel/conexp-fx/) [Project Site](https://francesco-kriegel.github.io/conexp-fx/)
 
 ---
 ### condrust
@@ -275,6 +308,39 @@ License: EPL-2.0 and more
 [Code](https://github.com/eclipse-sumo/sumo) [Project Site](https://eclipse.dev/sumo/)
 
 ---
+### Efficient Axiomatization of OWL 2 EL Ontologies from Data by means of Formal Concept Analysis
+
+Research Group: [Chair of Automata Theory](https://tu-dresden.de/ing/informatik/thi/lat) (Founder) (Maintainer) (Contributor) 
+
+More information: A Scala-based tool for axiomatizing OWL 2 EL ontologies from example data, using techniques from Formal Concept Analysis
+
+License: GPL-3.0
+
+[Code](https://github.com/francesco-kriegel/efficient-axiomatization-of-owl2el-ontologies-from-data) [Project Site](https://github.com/francesco-kriegel/efficient-axiomatization-of-owl2el-ontologies-from-data)
+
+---
+### ELExplicator
+
+Research Group: [Chair of Automata Theory](https://tu-dresden.de/ing/informatik/thi/lat) (Founder) (Maintainer) (Contributor) 
+
+More information: A collection of explanation services for OWL 2 EL ontologies
+
+License: MIT
+
+[Code](https://github.com/de-tu-dresden-inf-lat/elexplicator) [Project Site](https://github.com/de-tu-dresden-inf-lat/elexplicator)
+
+---
+### Evee
+
+Research Group: [Chair of Automata Theory](https://tu-dresden.de/ing/informatik/thi/lat) (Founder) (Maintainer) (Contributor) 
+
+More information: A collection of Java libraries and plugins for the ontology editor Protégé to provide explanation services for description logic ontologies
+
+License: MIT
+
+[Code](https://github.com/de-tu-dresden-inf-lat/evee) [Project Site](https://github.com/de-tu-dresden-inf-lat/evee)
+
+---
 ### FAIL*
 
 Research Group: [Chair of Operating Systems](https://tu-dresden.de/ing/informatik/sya/professur-fuer-betriebssysteme?set_language=en) (Founder) (Maintainer) (Contributor) 
@@ -286,6 +352,17 @@ License: GPL-3.0
 [Code](https://github.com/danceos/fail) [Project Site](https://github.com/danceos/fail)
 
 ---
+### FCAlib
+
+Research Group: [Chair of Automata Theory](https://tu-dresden.de/ing/informatik/thi/lat) (Founder) (Contributor) - no longer involved
+
+More information: A Java library for Formal Concept Analysis
+
+License: LGPL-3.0
+
+[Code](https://github.com/de-tu-dresden-inf-lat/fcalib) [Project Site](https://github.com/de-tu-dresden-inf-lat/fcalib)
+
+---
 ### FIRESTARTER
 
 Research Group: [Chair of Computer Architecture](https://tu-dresden.de/ing/informatik/ti/professur-fuer-rechnerarchitektur?set_language=en) (Contributor) 
@@ -295,6 +372,17 @@ More information: N/A
 License: GPL-3.0
 
 [Code](https://github.com/tud-zih-energy/FIRESTARTER) [Project Site](https://github.com/tud-zih-energy/FIRESTARTER)
+
+---
+### gel
+
+Research Group: [Chair of Automata Theory](https://tu-dresden.de/ing/informatik/thi/lat) (Founder) (Contributor) - no longer involved
+
+More information: A Java library and plugin for the ontology editor Protégé for computing generalizations for OWL 2 EL ontologies (role-depth bounded least common subsumers and most specific concepts)
+
+License: Apache-2.0
+
+[Code](https://github.com/de-tu-dresden-inf-lat/gel) [Project Site](https://github.com/de-tu-dresden-inf-lat/gel)
 
 ---
 ### gem5
@@ -341,6 +429,39 @@ License: MIT
 [Code](https://github.com/bjoern-andres/graph) [Project Site](https://github.com/bjoern-andres/graph)
 
 ---
+### Interactive Optimal Repairs
+
+Research Group: [Chair of Automata Theory](https://tu-dresden.de/ing/informatik/thi/lat) (Founder) (Maintainer) (Contributor) 
+
+More information: A plugin for the ontology editor Protégé for repairing ABox assertions in the presence of an EL TBox
+
+License: GPL-3.0
+
+[Code](https://github.com/francesco-kriegel/interactive-optimal-repairs) [Project Site](https://github.com/francesco-kriegel/interactive-optimal-repairs)
+
+---
+### jcel
+
+Research Group: [Chair of Automata Theory](https://tu-dresden.de/ing/informatik/thi/lat) (Founder) (Contributor) - no longer involved
+
+More information: A Java-based reasoner for the description logic EL+, including a plugin for the ontology editor Protégé
+
+License: Apache-2.0 and LGPL-3.0
+
+[Code](https://github.com/de-tu-dresden-inf-lat/jcel) [Project Site](https://github.com/de-tu-dresden-inf-lat/jcel)
+
+---
+### JProbLog
+
+Research Group: [Chair of Automata Theory](https://tu-dresden.de/ing/informatik/thi/lat) (Founder) (Contributor) - no longer involved
+
+More information: A Java adapter for ProbLog
+
+License: Apache-2.0
+
+[Code](https://github.com/de-tu-dresden-inf-lat/jproblog) [Project Site](https://github.com/de-tu-dresden-inf-lat/jproblog)
+
+---
 ### L4Re Operating System Framework
 
 Research Group: [Chair of Operating Systems](https://tu-dresden.de/ing/informatik/sya/professur-fuer-betriebssysteme?set_language=en) (Founder) (Contributor) 
@@ -350,6 +471,17 @@ More information: N/A
 License: GPL-2.0
 
 [Code](https://github.com/kernkonzept/manifest) [Project Site](https://l4re.org)
+
+---
+### LAT Scala DL Tools
+
+Research Group: [Chair of Automata Theory](https://tu-dresden.de/ing/informatik/thi/lat) (Founder) (Maintainer) (Contributor) 
+
+More information: A collection of Scala tools to work with OWL ontologies as a wrapper of the OWL API
+
+License: MIT
+
+[Code](https://github.com/de-tu-dresden-inf-lat/lat-scala-dl-tools) [Project Site](https://github.com/de-tu-dresden-inf-lat/lat-scala-dl-tools)
 
 ---
 ### learning-compiler-graphs
@@ -559,6 +691,28 @@ More information: N/A
 License: LGPL-3.0-or-later and others
 
 [Code](https://github.com/inet-framework/inet) [Project Site](https://inet.omnetpp.org/)
+
+---
+### OntoComP
+
+Research Group: [Chair of Automata Theory](https://tu-dresden.de/ing/informatik/thi/lat) (Founder) (Contributor) - no longer involved
+
+More information: A plugin for the ontology editor Protégé that supports completing OWL ontologies using techniques from Formal Concept Analysis
+
+License: LGPL-3.0
+
+[Code](https://github.com/de-tu-dresden-inf-lat/ontocomp) [Project Site](https://github.com/de-tu-dresden-inf-lat/ontocomp)
+
+---
+### OntoComPlib
+
+Research Group: [Chair of Automata Theory](https://tu-dresden.de/ing/informatik/thi/lat) (Founder) (Contributor) - no longer involved
+
+More information: A Java library for completing OWL ontologies using techniques from Formal Concept Analysis
+
+License: LGPL-3.0
+
+[Code](https://github.com/de-tu-dresden-inf-lat/ontocomplib) [Project Site](https://github.com/de-tu-dresden-inf-lat/ontocomplib)
 
 ---
 ### OpenFPM
@@ -836,6 +990,17 @@ More information: N/A
 License: GPL-3.0
 
 [Code](https://github.com/l3nkz/tetris) [Project Site](https://github.com/l3nkz/tetris)
+
+---
+### UEL
+
+Research Group: [Chair of Automata Theory](https://tu-dresden.de/ing/informatik/thi/lat) (Founder) (Contributor) 
+
+More information: A solver for unification problems in the description logic EL, either standalone or as a plugin for the ontology editor Protégé
+
+License: Apache-2.0 and LGPL-3.0
+
+[Code](https://github.com/de-tu-dresden-inf-lat/uel) [Project Site](https://github.com/de-tu-dresden-inf-lat/uel)
 
 ---
 ### unarXive
