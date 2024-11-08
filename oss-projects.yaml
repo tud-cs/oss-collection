@@ -671,3 +671,153 @@
   maintainer: true
   contributor: true
   involved: true
+- name: Evee
+  website: https://github.com/de-tu-dresden-inf-lat/evee
+  repository: https://github.com/de-tu-dresden-inf-lat/evee
+  description: A collection of Java libraries and plugins for the ontology editor Protégé to provide explanation services for description logic ontologies
+  license: MIT
+  groups: [ "LAT" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: LAT Scala DL Tools
+  website: https://github.com/de-tu-dresden-inf-lat/lat-scala-dl-tools
+  repository: https://github.com/de-tu-dresden-inf-lat/lat-scala-dl-tools
+  description: A collection of Scala tools to work with OWL ontologies as a wrapper of the OWL API
+  license: MIT
+  groups: [ "LAT" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: ELExplicator
+  website: https://github.com/de-tu-dresden-inf-lat/elexplicator
+  repository: https://github.com/de-tu-dresden-inf-lat/elexplicator
+  description: A collection of explanation services for OWL 2 EL ontologies
+  license: MIT
+  groups: [ "LAT" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: UEL
+  website: https://github.com/de-tu-dresden-inf-lat/uel
+  repository: https://github.com/de-tu-dresden-inf-lat/uel
+  description: A solver for unification problems in the description logic EL, either standalone or as a plugin for the ontology editor Protégé
+  license: Apache-2.0 and LGPL-3.0
+  groups: [ "LAT" ]
+  founder: true
+  maintainer: false
+  contributor: true
+  involved: true
+- name: FCAlib
+  website: https://github.com/de-tu-dresden-inf-lat/fcalib
+  repository: https://github.com/de-tu-dresden-inf-lat/fcalib
+  description: A Java library for Formal Concept Analysis
+  license: LGPL-3.0
+  groups: [ "LAT" ]
+  founder: true
+  maintainer: false
+  contributor: true
+  involved: false
+- name: Concept Explorer FX
+  website: https://francesco-kriegel.github.io/conexp-fx/
+  repository: https://github.com/francesco-kriegel/conexp-fx/
+  description: A tool to visualize and interact with formal contexts and their concept lattices
+  license: GPL-3.0
+  groups: [ "LAT" ]
+  founder: false
+  maintainer: true
+  contributor: true
+  involved: false
+- name: gel
+  website: https://github.com/de-tu-dresden-inf-lat/gel
+  repository: https://github.com/de-tu-dresden-inf-lat/gel
+  description: A Java library and plugin for the ontology editor Protégé for computing generalizations for OWL 2 EL ontologies (role-depth bounded least common subsumers and most specific concepts)
+  license: Apache-2.0
+  groups: [ "LAT" ]
+  founder: true
+  maintainer: false
+  contributor: true
+  involved: false
+- name: OntoComPlib
+  website: https://github.com/de-tu-dresden-inf-lat/ontocomplib
+  repository: https://github.com/de-tu-dresden-inf-lat/ontocomplib
+  description: A Java library for completing OWL ontologies using techniques from Formal Concept Analysis
+  license: LGPL-3.0
+  groups: [ "LAT" ]
+  founder: true
+  maintainer: false
+  contributor: true
+  involved: false
+- name: OntoComP
+  website: https://github.com/de-tu-dresden-inf-lat/ontocomp
+  repository: https://github.com/de-tu-dresden-inf-lat/ontocomp
+  description: A plugin for the ontology editor Protégé that supports completing OWL ontologies using techniques from Formal Concept Analysis
+  license: LGPL-3.0
+  groups: [ "LAT" ]
+  founder: true
+  maintainer: false
+  contributor: true
+  involved: false
+- name: BORN
+  website: https://github.com/de-tu-dresden-inf-lat/born
+  repository: https://github.com/de-tu-dresden-inf-lat/born
+  description: A reasoner for the Bayesian description logic BEL, including a plugin for the ontology editor Protégé
+  license: Apache-2.0
+  groups: [ "LAT" ]
+  founder: true
+  maintainer: false
+  contributor: true
+  involved: false
+- name: JProbLog
+  website: https://github.com/de-tu-dresden-inf-lat/jproblog
+  repository: https://github.com/de-tu-dresden-inf-lat/jproblog
+  description: A Java adapter for ProbLog
+  license: Apache-2.0
+  groups: [ "LAT" ]
+  founder: true
+  maintainer: false
+  contributor: true
+  involved: false
+- name: jcel
+  website: https://github.com/de-tu-dresden-inf-lat/jcel
+  repository: https://github.com/de-tu-dresden-inf-lat/jcel
+  description: A Java-based reasoner for the description logic EL+, including a plugin for the ontology editor Protégé
+  license: Apache-2.0 and LGPL-3.0
+  groups: [ "LAT" ]
+  founder: true
+  maintainer: false
+  contributor: true
+  involved: false
+- name: CEL
+  website: https://github.com/de-tu-dresden-inf-lat/cel
+  repository: https://github.com/de-tu-dresden-inf-lat/cel
+  description: A reasoner for the description logic EL that also supports incremental classification, modularization and axiom pinpointing, and is also available as a plugin for the ontology editor Protégé
+  license: Apache-2.0 and LGPL-3.0
+  groups: [ "LAT" ]
+  founder: true
+  maintainer: false
+  contributor: true
+  involved: false
+- name: Interactive Optimal Repairs
+  website: https://github.com/francesco-kriegel/interactive-optimal-repairs
+  repository: https://github.com/francesco-kriegel/interactive-optimal-repairs
+  description: A plugin for the ontology editor Protégé for repairing ABox assertions in the presence of an EL TBox
+  license: GPL-3.0
+  groups: [ "LAT" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
+- name: Efficient Axiomatization of OWL 2 EL Ontologies from Data by means of Formal Concept Analysis
+  website: https://github.com/francesco-kriegel/efficient-axiomatization-of-owl2el-ontologies-from-data
+  repository: https://github.com/francesco-kriegel/efficient-axiomatization-of-owl2el-ontologies-from-data
+  description: A Scala-based tool for axiomatizing OWL 2 EL ontologies from example data, using techniques from Formal Concept Analysis
+  license: GPL-3.0
+  groups: [ "LAT" ]
+  founder: true
+  maintainer: true
+  contributor: true
+  involved: true
