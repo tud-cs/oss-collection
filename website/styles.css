@@ -317,7 +317,7 @@ body {
     color: rgba(114, 119, 119, .8);
 }
 
-.impressum-body {
+.imprint-body {
     display: flex;
     flex-direction: column;
     align-items: center;
