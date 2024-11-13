@@ -306,3 +306,19 @@ body {
     padding-top: 20px;
     margin: 0;
 }
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.footer-link {
+    color: rgba(114, 119, 119, .8);
+}
+
+.impressum-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
