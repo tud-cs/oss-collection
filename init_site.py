@@ -86,8 +86,6 @@ def generate_html_from_yaml(oss_projects_file, cs_groups_file, html_file, output
                         chair.set("href", group_link)
                         chair.set("target", "_blank")
                         chair.set("title", group_link)
-                        
-                        etree.SubElement(chair, "img", attrib={"class": "chair-link-img"}, src="images/external-link-svgrepo-com-grey.svg", style="height: 16px")    
 
         # Project name and more info
         project_row = etree.SubElement(project_main_left, "div", attrib={"class": "project-row", "onclick": f"popUp({i})"})
@@ -128,14 +126,12 @@ def generate_html_from_yaml(oss_projects_file, cs_groups_file, html_file, output
             link_item = etree.SubElement(link_footer_left, "a", attrib={"class": "link-item"}, title=project_site, href=project_site, target="_blank")
             link_item_text = etree.SubElement(link_item, "span", attrib={"class": "link-item-text"})
             link_item_text.text = "Project Site"
-            link_item_icon = etree.SubElement(link_item, "img", src="images/external-link-svgrepo-com-white.svg", style="height: 20px")
         
         repository = project.get("repository")
         if repository:
             link_item = etree.SubElement(link_footer_left, "a", attrib={"class": "link-item"}, title=repository, href=repository, target="_blank")
             link_item_text = etree.SubElement(link_item, "span", attrib={"class": "link-item-text"})
             link_item_text.text = "Code"
-            link_item_icon = etree.SubElement(link_item, "img", src="images/external-link-svgrepo-com-white.svg", style="height: 20px")
         
         # License
         license = project.get("license")
