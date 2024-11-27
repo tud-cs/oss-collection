@@ -92,19 +92,19 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     a:link {
-      color: rgba(114, 119, 119, .8);
+      color: rgba(0, 0, 0, .8);
       background-color: transparent;
       text-decoration: underline;
     }
 
     a:visited {
-      color: rgba(114, 119, 119, .8);
+      color: rgba(0, 0, 0, .8);
       background-color: transparent;
       text-decoration: underline;
     }
 
     a:hover {
-      color: rgba(114, 119, 119, .6);
+      color: rgba(0, 0, 0, .7);
       background-color: transparent;
       text-decoration: underline;
     }
@@ -129,7 +129,7 @@ body {
 }
 
 .chair-info {
-    color: rgba(114, 119, 119, .8);
+    color: rgba(0, 0, 0, .8);
     text-decoration: none;
     margin-right: 5px; 
 }
@@ -160,7 +160,7 @@ body {
 }
 
 .project-more-info {
-    color: rgba(114, 119, 119, .8);
+    color: rgba(114, 119, 119, .5);
     margin-left: 5px;
     font-size: 20px;
     font-weight: bold;
@@ -221,7 +221,7 @@ body {
 }
 
 .maintainer {
-    background-color: rgb(101, 179, 46);
+    background-color: rgb(0, 137, 58);
 }
 
 .contributor {
@@ -241,7 +241,7 @@ body {
 .link-item {
     padding: 5px 10px;
     margin-right: 10px;
-    background-color: rgba(114, 119, 119, .8);
+    background-color: rgba(0, 0, 0, .5);
     border: none;
     display: flex;
     align-items: space-between;
@@ -253,13 +253,12 @@ body {
 }
 
 .link-item-text {
-    margin-right: 5px;
     color: #ffffff;
 }
 
 .license-item {
     padding: 5px 10px;
-    color: rgba(114, 119, 119, .8);
+    color: rgba(0, 0, 0, .8);
     max-width: 100px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -285,11 +284,11 @@ body {
 
 .not-involved {
     font-size: 14px;
-    color: rgba(114, 119, 119, .8);
+    color: rgba(0, 0, 0, .8);
 }
 
 .project-more-info-popup {
-    color: rgba(114, 119, 119, .8);
+    color: rgba(0, 0, 0, .8);
     font-size: 14px;
     margin-bottom: 15px;
     overflow: hidden;
@@ -314,11 +313,39 @@ body {
 }
 
 .footer-link {
-    color: rgba(114, 119, 119, .8);
+    color: rgba(0, 0, 0, .8);
 }
 
 .imprint-body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.chair-name::after {
+    content: "";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-image: url('images/external-link-svgrepo-com-black.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 5px;
+    vertical-align: bottom;
+}
+
+.link-item-text::after {
+    content: "";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-image: url('images/external-link-svgrepo-com-white.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 5px;
+    vertical-align: bottom;
 }
